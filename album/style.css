@@ -85,18 +85,27 @@ body {
 /* END VIDEO SHOWCASE */
 
 /* WORK SECTION */
+
 .work {
 	color: white;
 }
 
 .work-section {
-	flex-direction: column;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
 }
 
 .work .media
     {
       margin-top: 30px;
     }
+
+.work .media :hover
+	{
+		background: #ffffff;
+		transition: all 0.3s ease-in;
+	}
 	
 .work .media-object
     {
@@ -110,14 +119,7 @@ body {
         line-height: 40px;
         text-align: center;
         vertical-align: middle;
-        transition: all 0.4s ease-in;
-    }
-
-
-.work .media :hover
-    {
-        background: #ffffff;
-		transition: all 0.4s ease-in;
+        /* transition: all 0.4s ease-in; */
     }
 
 /* END WORK SECTION */
