@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
+/* Bandaid solution to empty white bar. It works... */
+html {
+	overflow-x: hidden;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
