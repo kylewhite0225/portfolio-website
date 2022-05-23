@@ -4,6 +4,19 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+#navbarAbout p {
+	text-align: justify;
+	color: lightgray;
+}
+
+#navbarContact li {
+	color: lightgray;
+}
+
+#navbarContact a {
+	color: lightgray;
+}
+
 #about h2 {
 	margin: 30px 0;
 	font-weight: 300;
@@ -33,6 +46,11 @@ body {
 	/* transform: scale(0.98); */
 	transform: translateY(-2.5px);
 	box-shadow: 0px 4px 12px rgba(106, 160, 118, 0.45);
+}
+
+.modal-footer .btn:hover {
+	background-color: white;
+	color: gray;
 }
 
 /* VIDEO SHOWCASE */

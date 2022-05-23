@@ -28,24 +28,26 @@
   <div class="collapse bg-dark" id="navbarHeader">
     <div class="container">
       <div class="row">
-        <div class="col-sm-8 col-md-8 py-4">
+        <div class="col-sm-8 col-md-8 py-4" id="navbarAbout">
           <h4 class="text-white">About Me</h4>
-          <p class="text-muted">
-            Add some information about the album below, the author, or any other background context. 
-            Make it a few sentences long so folks can pick up some informative tidbits. 
-            Then, link them off to some social networking sites or contact information.
+          <p>
+            I was born and raised in the Pacific Northwest. I obtained my first degree in 
+            manufacturing engineering from Western Washington University in 2016, and worked
+            in aerospace manufacturing for 4 years. In June of 2020 I decided I wanted
+            to expand my education beyond hardware into the realm of software. My BS in 
+            computer science was completed in June of 2022.
           </p>
         </div>
         
         <img class="portrait col-md-auto py-4" src="../assets/images/portrait.jpg" alt="Self Portrait">
         
-        <div class="col-sm-2 py-4">
+        <div class="col-sm-2 py-4" id="navbarContact">
           <h4 class="text-white">Contact</h4>
           <ul class="list-unstyled">
-            <li><i class="fa-brands fa-linkedin-in text-white"></i>  <a href="https://www.linkedin.com/in/kw0225/" class="text-white">LinkedIn</a></li>
-            <li><i class="fa-brands fa-github text-white"></i>  <a href="https://github.com/kylewhite0225" class="text-white">GitHub</a></li>
-            <li><i class="fa-brands fa-google text-white"></i>  <a href="mailto:kylewhite0225@gmail.com" class="text-white">Email</a></li>
-            <li><i class="fa-solid fa-file-lines text-white"></i>  <a href="Resume.html" class="text-white">Resume</a></li>
+            <li><i class="fa-brands fa-linkedin-in"></i>  <a href="https://www.linkedin.com/in/kw0225/">LinkedIn</a></li>
+            <li><i class="fa-brands fa-github"></i>  <a href="https://github.com/kylewhite0225">GitHub</a></li>
+            <li><i class="fa-brands fa-google"></i>  <a href="mailto:kylewhite0225@gmail.com">Email</a></li>
+            <li><i class="fa-solid fa-file-lines"></i>  <a href="Resume.html">Resume</a></li>
           </ul>
         </div>
       </div>
@@ -93,6 +95,7 @@
 <!-- NCRP Section -->
 
   <div class="capstone py-5 bg-dark">
+    
     <div data-aos="fade-up" data-aos-duration="1000" class="container">
       <h1 class="text-white">CAPSTONE PROJECT</h1>
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1">
@@ -105,8 +108,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  <!--  -->
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#capstone">More Info</button>
                 </div>
               </div>
             </div>
@@ -114,6 +116,24 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="capstone" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Capstone Project</h5>
+          </div>
+          <div class="modal-body">
+            Capstone https://ncrp.app
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
 <!-- End NCRP Section -->
@@ -192,7 +212,7 @@
 
 <!-- Software Technologies -->
 
-<div class="tech py-5 bg-dark">
+<div class="tech py-5 bg-black">
   <div class="container">
     <h2 data-aos="fade-left" data-aos-duration="500" class="text-white">LANGUAGES & TECHNOLOGIES</h2>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3">
@@ -204,38 +224,121 @@
             <p class="card-text">Java</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" href="#popup1" class="btn btn-sm btn-outline-success">More Info</button>
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#javamodal">More Info</button>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="javamodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+            </div>
+            <div class="modal-body">
+              java
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <div data-aos="fade-left" data-aos-duration="500" class="col">
         <div class="card shadow-sm">
-          <img src="../assets/images/software/Csharp_Logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 13% 0%"><title>.NET Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+          <img src="../assets/images/software/Csharp_Logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 15% 0%"><title>.NET Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
 
           <div class="card-body">
-            <p class="card-text">.NET/C#</p>
+            <p class="card-text">.NET / C#</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#netmodal">More Info</button>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="netmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">.NET / C# Experience</h5>
+            </div>
+            <div class="modal-body">
+              net
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div data-aos="fade-left" data-aos-duration="500" class="col">
         <div class="card shadow-sm">
-          <img src="../assets/images/software/python-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 26% 0%"><title>Python Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+          <img src="../assets/images/software/cplus-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 30% 0%"><title>C++ Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+          <div class="card-body">
+            <p class="card-text">C++</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#cplusmodal">More Info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="cplusmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">C++ Experience</h5>
+            </div>
+            <div class="modal-body">
+              c++
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-left" data-aos-duration="500" class="col">
+        <div class="card shadow-sm">
+          <img src="../assets/images/software/python-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 45% 0%"><title>Python Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
 
           <div class="card-body">
             <p class="card-text">Python</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#pythonmodal">More Info</button>
               </div>
-              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="pythonmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Python Experience</h5>
+            </div>
+            <div class="modal-body">
+              python
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -243,13 +346,77 @@
 
       <div data-aos="fade-left" data-aos-duration="500" class="col">
         <div class="card shadow-sm">
-          <img src="../assets/images/software/JavaScript-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 39% 0%"><title>JS Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+          <img src="../assets/images/software/n-react-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 60% 0%"><title>React Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+          <div class="card-body">
+            <p class="card-text">React</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#reactmodal">More Info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="reactmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">React Experience</h5>
+            </div>
+            <div class="modal-body">
+              React
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-left" data-aos-duration="500" class="col">
+        <div class="card shadow-sm">
+          <img src="../assets/images/software/react-native-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 0% 30%"><title>React Native Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+          <div class="card-body">
+            <p class="card-text">React Native</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#reactnativemodal">More Info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="reactnativemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">React Native Experience</h5>
+            </div>
+            <div class="modal-body">
+              react native
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-left" data-aos-duration="500" class="col">
+        <div class="card shadow-sm">
+          <img src="../assets/images/software/JavaScript-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 15% 30%"><title>JS Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
 
           <div class="card-body">
             <p class="card-text">JavaScript</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#jsmodal">More Info</button>
                 
               </div>
               
@@ -257,99 +424,275 @@
           </div>
         </div>
       </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="jsmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">JavaScript Experience</h5>
+            </div>
+            <div class="modal-body">
+              javascript
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div data-aos="fade-left" data-aos-duration="500" class="col">
         <div class="card shadow-sm">
-          <img src="../assets/images/software/n-react-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 52% 0%"><title>React Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+          <img src="../assets/images/software/kubernetes-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 30% 30%"><title>Kubernetes Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
 
           <div class="card-body">
-            <p class="card-text">React / React Native</p>
+            <p class="card-text">Kubernetes</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#kubermodal">More Info</button>
               </div>
-              
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="kubermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Kubernetes Experience</h5>
+            </div>
+            <div class="modal-body">
+              kubernetes
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div data-aos="fade-left" data-aos-duration="500" class="col">
         <div class="card shadow-sm">
-          <img src="../assets/images/software/docker-kubernetes-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 0% 30%"><title>Docker/Kubernetes Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+          <img src="../assets/images/software/docker-logo.webp" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 45% 30%"><title>Docker Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
 
           <div class="card-body">
-            <p class="card-text">Docker and Kubernetes</p>
+            <p class="card-text">Docker</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#dockermodal">More Info</button>
               </div>
-              
             </div>
           </div>
         </div>
       </div>
 
-      <div data-aos="fade-left" data-aos-duration="500" class="col">
-        <div class="card shadow-sm">
-          <img src="../assets/images/software/aws-light-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 13% 30%"><title>AWS Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
-
-          <div class="card-body">
-            <p class="card-text">AWS</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                
-              </div>
-              
+      <!-- Modal -->
+      <div class="modal fade" id="dockermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Docker Experience</h5>
+            </div>
+            <div class="modal-body">
+              docker
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
       </div>
+      
       <div data-aos="fade-left" data-aos-duration="500" class="col">
         <div class="card shadow-sm">
-          <img src="../assets/images/software/cloud-computing-white.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 26% 30%"><title>Cloud Computing Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+          <img src="../assets/images/software/cloud-computing-white.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 60% 30%"><title>Cloud Comptuing Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
 
           <div class="card-body">
             <p class="card-text">Cloud Computing</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#cloudmodal">More Info</button>
               </div>
-              
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="cloudmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Cloud Computing Experience</h5>
+            </div>
+            <div class="modal-body">
+              cloud
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div data-aos="fade-left" data-aos-duration="500" class="col">
         <div class="card shadow-sm">
-          <img src="../assets/images/software/database-centered-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 39% 30%"><title>Databases Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+          <img src="../assets/images/software/htmlcss-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 0% 60%"><title>HTML/CSS Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
 
           <div class="card-body">
-            <p class="card-text">Databases</p>
+            <p class="card-text">HTML / CSS</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#htmlcssmodal">More Info</button>
               </div>
-              
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="htmlcssmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">HTML / CSS Experience</h5>
+            </div>
+            <div class="modal-body">
+              I built this website!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div data-aos="fade-left" data-aos-duration="500" class="col">
         <div class="card shadow-sm">
-          <img src="../assets/images/software/iot-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 52% 30%"><title>IoT Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+          <img src="../assets/images/software/machine-learning-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 15% 60%"><title>ML Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+          <div class="card-body">
+            <p class="card-text">Machine Learning</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#mlmodal">More Info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="mlmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Machine Learning Experience</h5>
+            </div>
+            <div class="modal-body">
+              machine learns
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-left" data-aos-duration="500" class="col">
+        <div class="card shadow-sm">
+          <img src="../assets/images/software/aws-light-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 30% 60%"><title>AWS Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+          <div class="card-body">
+            <p class="card-text">AWS</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#awsmodal">More Info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="awsmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Amazon Web Services Experience</h5>
+            </div>
+            <div class="modal-body">
+              aws
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-left" data-aos-duration="500" class="col">
+        <div class="card shadow-sm">
+          <img src="../assets/images/software/database-centered-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 45% 60%"><title>Databases Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
+
+          <div class="card-body">
+            <p class="card-text">Database Systems</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#dbmodal">More Info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="dbmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Database Systems Experience</h5>
+            </div>
+            <div class="modal-body">
+              database
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-left" data-aos-duration="500" class="col">
+        <div class="card shadow-sm">
+          <img src="../assets/images/software/iot-logo.png" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: 60% 60%"><title>IoT Logo</title><rect width="100%" height="100%" fill="#55595c"/></img>
 
           <div class="card-body">
             <p class="card-text">IoT Devices</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                
+                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#iotmodal">More Info</button>
               </div>
-              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="iotmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">IoT Device Experience</h5>
+            </div>
+            <div class="modal-body">
+              iotmodal
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -367,6 +710,7 @@
     <div class="container">
       <h1 data-aos="fade-right" data-aos-duration="500" class="text-white">SOFTWARE PORTFOLIO</h1>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
         <div data-aos="fade-right" data-aos-duration="500" class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -375,14 +719,30 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  <!--  -->
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#sw1">More Info</button>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="sw1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div data-aos="fade-right" data-aos-duration="500" class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -391,7 +751,71 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#sw2">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="sw2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-right" data-aos-duration="500" class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#sw3">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="sw3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-right" data-aos-duration="500" class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#sw4">More Info</button>
                   
                 </div>
                 
@@ -399,18 +823,19 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-right" data-aos-duration="500" class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
-                </div>
-                
+        <!-- Modal -->
+        <div class="modal fade" id="sw4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
@@ -424,7 +849,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#sw5">More Info</button>
                   
                 </div>
                 
@@ -432,34 +857,19 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-right" data-aos-duration="500" class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
-                </div>
-                
+        <!-- Modal -->
+        <div class="modal fade" id="sw5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
               </div>
-            </div>
-          </div>
-        </div>
-        <div data-aos="fade-right" data-aos-duration="500" class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
-                </div>
-                
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
@@ -473,14 +883,30 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#sw6">More Info</button>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="sw6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>        
+
         <div data-aos="fade-right" data-aos-duration="500" class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -489,14 +915,30 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#sw7">More Info</button>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="sw7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div data-aos="fade-right" data-aos-duration="500" class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -505,7 +947,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#sw8">More Info</button>
                   
                 </div>
                 
@@ -513,6 +955,56 @@
             </div>
           </div>
         </div>
+
+          <!-- Modal -->
+        <div class="modal fade" id="sw8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-right" data-aos-duration="500" class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#sw9">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="sw9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -521,10 +1013,11 @@
 
 <!-- Mechanical Portfolio -->
 
-  <div class="album py-5 bg-dark">
+  <div class="album py-5 bg-black">
     <div class="container">
       <h1 data-aos="fade-left" data-aos-duration="500" class="text-white">MECHANICAL PORTFOLIO</h1>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
         <div data-aos="fade-left" data-aos-duration="500" class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -533,42 +1026,25 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  <!--  -->
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#mech1">More Info</button>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
-        <div data-aos="fade-left" data-aos-duration="500" class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
-                </div>
-                
+        <!-- Modal -->
+        <div class="modal fade" id="mech1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
               </div>
-            </div>
-          </div>
-        </div>
-        <div data-aos="fade-left" data-aos-duration="500" class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
-                </div>
-                
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
@@ -582,10 +1058,25 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#mech2">More Info</button>
                 </div>
-                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="mech2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
@@ -598,14 +1089,30 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#mech3">More Info</button>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="mech3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div data-aos="fade-left" data-aos-duration="500" class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -614,10 +1121,25 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#mech4">More Info</button>
                 </div>
-                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="mech4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
@@ -631,14 +1153,30 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#mech5">More Info</button>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="mech5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div data-aos="fade-left" data-aos-duration="500" class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -647,14 +1185,30 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#mech6">More Info</button>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="mech6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div data-aos="fade-left" data-aos-duration="500" class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -663,14 +1217,94 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-success">More Info</button>
-                  
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#mech7">More Info</button>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="mech7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-duration="500" class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#mech8">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="mech8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-duration="500" class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#mech9">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="mech9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Java Experience</h5>
+              </div>
+              <div class="modal-body">
+                java
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
