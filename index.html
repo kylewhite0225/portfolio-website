@@ -107,10 +107,16 @@
 
             <img src="./assets/images/software/ncrp-topo-logo-text.png" alt="NCRP LOGO">
             <div class="card-body">
-              <p class="card-text">...</p>
+              <p class="card-text">
+                Negative Carbon Reforestation Project (NCRP) was born from the desire
+                to use modern technology for environmental restoration. Click More Info to learn more.
+              </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#capstone">More Info</button>
+                  <button type="button" class="btn btn-sm btn-outline-success" onclick="location.href = 'https://ncrp.app';">
+                    NCRP Website
+                  </button>
                 </div>
               </div>
             </div>
@@ -127,7 +133,15 @@
             <h5 class="modal-title" id="exampleModalLongTitle">Capstone Project</h5>
           </div>
           <div class="modal-body">
-            Capstone https://ncrp.app
+            Our goal with NCRP was to build a tool that uses modern technology to assist non-profit 
+            organizations and invididuals with reforestation efforts by highlighting opportunity 
+            within Washington state. We've done so by creating a mapping service that provides
+            reforestation opportunity as well as information on common tree species within targeted areas
+            that the user can select and search for. 
+            <br><br>
+            Technologies include an OpenLayers mapping service using
+            GeoServer and OpenSearch hosted on Docker containers within a Kubernetes cluster. This cluster
+            is hosted on AWS.
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
