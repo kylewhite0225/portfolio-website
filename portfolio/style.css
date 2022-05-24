@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
-/* Bandaid solution to empty white bar. It works... */
+/* Bandaid solution to empty white bar. It works on desktop but broke mobile */
 html {
 	overflow-x: hidden;
 }
@@ -20,20 +20,6 @@ body {
 
 #navbarContact a {
 	color: lightgray;
-}
-
-#about h2 {
-	margin: 30px 0;
-	font-weight: 300;
-	font-size: 60px;
-	line-height: 1.2;
-}
-
-#about h4 {
-	margin: 30px 0;
-	font-weight: 100;
-	text-align: justify;
-	max-width: 600px;
 }
 
 .portrait
@@ -58,6 +44,27 @@ body {
 	color: gray;
 }
 
+/* Showcase (Over Video) */
+
+#about h2 {
+	margin: 10px 0;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 1.2;
+}
+
+#about h4 {
+	font-weight: 400;
+	margin: 15px 0;
+}
+
+#about h5 {
+	margin: 10px 0;
+	font-weight: 100;
+	text-align: justify;
+	max-width: 600px;
+}
+
 /* VIDEO SHOWCASE */
 .showcase {
 	position: relative;
@@ -70,15 +77,6 @@ body {
 	padding: 0 20px;
 }
 
-@media screen and (max-width: 800px) {
-	.showcase {
-		height: auto;
-	}
-
-	.capstone {
-		height: auto;
-	}
-}
 
 .video-container {
 	position: absolute;
@@ -110,10 +108,20 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.45);
 }
 
 /* END VIDEO SHOWCASE */
+
+@media screen and (max-width: 800px) {
+	.showcase {
+		height: auto;
+	}
+
+	.capstone {
+		height: auto;
+	}
+}
 
 /* CAPSTONE SECTION */
 
@@ -191,3 +199,8 @@ body {
 }
 
 /* END TECHNOLOGIES SECTION */
+
+.modal-body 
+{
+	text-align: justify;
+}
