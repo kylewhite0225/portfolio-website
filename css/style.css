@@ -122,6 +122,10 @@ body {
 	.capstone {
 		height: auto;
 	}
+
+	.sw-img {
+		display: none;
+	}
 }
 
 /* CAPSTONE SECTION */
@@ -199,9 +203,131 @@ body {
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
 }
 
+
 /* END TECHNOLOGIES SECTION */
+
+/* Modal popup */
 
 .modal-body 
 {
 	text-align: justify;
+}
+/*  */
+
+/* Software Portfolio Section */
+.software-card {
+	background-color: var(--bs-gray-dark);
+	color: var(--bs-light);
+}
+
+.card-main {
+	text-align: justify;
+}
+
+.sw-img {
+	float: right;
+	padding: 20px;
+}
+
+/* End Software Portfolio */
+
+
+
+
+
+
+
+
+
+/* Badges */
+
+.badge {
+	/* background-color: var(--bs-success); */
+	font-weight: 500;
+}
+
+.bs-badge {
+	background-color: var(--bs-success);
+}
+
+.html-badge {
+	background-color: var(--bs-info);
+	color: var(--bs-gray-dark)
+}
+
+.css-badge {
+	background-color: var(--bs-primary);
+}
+
+.js-badge {
+	background-color: var(--bs-warning);
+	color: var(--bs-gray-dark)
+}
+
+.java-badge {
+	background-color: var(--bs-warning);
+}
+
+.csharp-badge {
+	background-color: var(--bs-warning);
+}
+
+.cplus-badge {
+	background-color: var(--bs-warning);
+}
+
+.python-badge {
+	background-color: var(--bs-warning);
+}
+
+.react-badge {
+	background-color: var(--bs-warning);
+}
+
+.reactn-badge {
+	background-color: var(--bs-warning);
+}
+
+.ml-badge {
+	background-color: var(--bs-warning);
+}
+
+.aws-badge {
+	background-color: var(--bs-warning);
+}
+
+.db-badge {
+	background-color: var(--bs-warning);
+}
+
+.cloud-badge {
+	background-color: var(--bs-primary);
+}
+
+/* End Badges */
+
+:root {
+	/* BOOTSTRAP COLORS */
+	--bs-primary: #0d6efd;
+	--bs-secondary: #6c757d;
+	--bs-success: #198754;
+	--bs-info: #0dcaf0;
+	--bs-warning: #ffc107;
+	--bs-danger: #dc3545;
+	--bs-light: #f8f9fa;
+	--bs-dark: #212529;
+
+	--bs-blue: #0d6efd;
+	--bs-indigo: #6610f2;
+	--bs-purple: #6f42c1;
+	--bs-pink: #d63384;
+	--bs-red: #dc3545;
+	--bs-orange: #fd7e14;
+	--bs-yellow: #ffc107;
+	--bs-green: #198754;
+	--bs-teal: #20c997;
+	--bs-cyan: #0dcaf0;
+	--bs-white: #fff;
+	--bs-gray: #6c757d;
+	--bs-gray-dark: #343a40;
 }
