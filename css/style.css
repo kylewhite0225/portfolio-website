@@ -375,6 +375,7 @@ container scaling to fix spillover into surrounding divs */
 	.content {
 		zoom: 0.8;
 		-moz-transform: scale(0.8);
+		min-width: 50vw;
 	}
 
 	.content h2 {
@@ -383,8 +384,13 @@ container scaling to fix spillover into surrounding divs */
 	}
 
 	.content h4 {
-		zoom: 0.8
+		zoom: 0.8;
 		-moz-transform: scale(0.8);
+	}
+
+	.content h5 {
+		min-width: inherit;
+		text-align: justify;
 	}
 
 	.capstone .container {
