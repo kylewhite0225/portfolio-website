@@ -2,7 +2,9 @@
 
 /* Bandaid solution to empty white bar. It works on desktop but broke mobile */
 html {
+	/* width: 100%; */
 	overflow-x: hidden;
+	/* transform: scale(1); */
 }
 
 body {
@@ -136,16 +138,17 @@ body {
 	/* height: 50vh; */
 	align-items: center;
 	background-image: url(../assets/images/topography-overlay.png);
+	/* object-fit: contain; */
 }
 
 .capstone h1 {
 	padding-bottom: 10px;
 }
 
-/* .capstone img {
+.capstone img {
 	align-self: flex-start;
 	width: 100%;
-} */
+}
 
 /* END CAPSTONE SECTION */
 
@@ -237,9 +240,16 @@ body {
 /* End Software Portfolio */
 
 
+/* Mechanical Portfolio Section */
 
+.mech-img {
+	object-fit: scale-down;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
 
-
+/* End Mech Portfolio Section */
 
 
 
