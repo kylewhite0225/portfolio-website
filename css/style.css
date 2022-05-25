@@ -377,6 +377,16 @@ container scaling to fix spillover into surrounding divs */
 		-moz-transform: scale(0.8);
 	}
 
+	.content h2 {
+		zoom: 0.8;
+		-moz-transform: scale(0.8);
+	}
+
+	.content h4 {
+		zoom: 0.8
+		-moz-transform: scale(0.8);
+	}
+
 	.capstone .container {
 		width: 70%;
 		transform: translate(22%, 0%);
