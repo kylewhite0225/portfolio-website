@@ -142,6 +142,11 @@ body {
 	padding-bottom: 10px;
 }
 
+.capstone img {
+	align-self: flex-start;
+	width: 100%;
+}
+
 /* END CAPSTONE SECTION */
 
 /* WORK SECTION */
