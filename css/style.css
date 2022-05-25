@@ -242,7 +242,6 @@ body {
 /* Badges */
 
 .badge {
-	/* background-color: var(--bs-success); */
 	font-weight: 500;
 }
 
@@ -251,7 +250,7 @@ body {
 }
 
 .html-badge {
-	background-color: var(--bs-info);
+	background-color: var(--bs-cyan);
 	color: var(--bs-gray-dark)
 }
 
@@ -265,43 +264,53 @@ body {
 }
 
 .java-badge {
-	background-color: var(--bs-warning);
+	background-color: var(--bs-cyan);
+	color: var(--bs-gray-dark);
 }
 
 .csharp-badge {
-	background-color: var(--bs-warning);
+	background-color: var(--bs-danger);
 }
 
 .cplus-badge {
-	background-color: var(--bs-warning);
+	background-color: var(--bs-purple);
 }
 
 .python-badge {
-	background-color: var(--bs-warning);
+	background-color: var(--bs-teal);
+	color: var(--bs-gray-dark);
 }
 
 .react-badge {
-	background-color: var(--bs-warning);
+	background-color: var(--bs-orange);
+	color: var(--bs-gray-dark)
 }
 
 .reactn-badge {
-	background-color: var(--bs-warning);
+	background-color: var(--bs-purple);
 }
 
 .ml-badge {
-	background-color: var(--bs-warning);
+	background-color: lightsteelblue;
+	color: var(--bs-gray-dark);
 }
 
 .aws-badge {
-	background-color: var(--bs-warning);
+	background-color: #ec912d;
+	/* color: var(--bs-gray-dark); */
 }
 
 .db-badge {
-	background-color: var(--bs-warning);
+	background-color: var(--bs-pink);
+	/* color: var(--bs-gray-dark); */
 }
 
 .cloud-badge {
-	background-color: var(--bs-primary);
+	background-color: rgb(80, 71, 138);
+}
+
+.jupyter-badge {
+	background-color: lightcoral;
 }
 
 /* End Badges */
