@@ -212,16 +212,37 @@ body {
 .software-card {
 	background-color: var(--bs-gray-dark);
 	color: var(--bs-light);
-}
-
-.card-main {
 	text-align: justify;
 }
 
-.sw-img {
+.software-card p {
+	text-align: justify;
+	min-height: 100px;
+	max-width: 70%;
+}
+
+.sw-img-container {
 	float: right;
 	padding: 20px;
+	/* width: 200px;
+	height: 200px;
+	object-fit: fill; */
 }
+
+.sw-img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.button-row {
+	position: relative;
+	/* bottom: 15px; */
+}
+
+/* .button-footer {
+	padding-bottom: 15px;
+	padding-left: 15px;
+} */
 
 /* End Software Portfolio */
 
@@ -254,6 +275,10 @@ body {
 
 	.sw-img {
 		display: none;
+	}
+
+	.software-card p {
+		max-width: 100%;
 	}
 }
 
@@ -368,6 +393,10 @@ container scaling to fix spillover into surrounding divs */
 
 .jupyter-badge {
 	background-color: lightcoral;
+}
+
+.c-badge {
+	background-color: darkmagenta;
 }
 
 /* End Badges */

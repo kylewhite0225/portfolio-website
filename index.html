@@ -724,14 +724,16 @@
 
 <div class="album py-5 bg-dark">
   <div class="container">
-    <h1 data-aos="fade-right" data-aos-duration="500" class="text-white">SOFTWARE PORTFOLIO (In Progress)</h1>
+    <h1 data-aos="fade-right" data-aos-duration="500" class="text-white">SOFTWARE PORTFOLIO - Highlights</h1>
     
     <!-- Card -->
     <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
       <div class="col">
         <div class="card software-card shadow-md">
           <div class="card-body">
-            <img class="sw-img" src="./assets/images/portfolio/portfolio-logo-white.png" height="120px"></img>
+            <div class="sw-img-container">
+              <img class="sw-img" src="./assets/images/portfolio/portfolio-logo-white.png" height="150px"></img>
+            </div>
             <div>
               <h4>
                 <!-- Highlight with fa-star -->
@@ -749,7 +751,7 @@
               This website! It was built using Bootstrap components, HTML, CSS, and JavaScript for animations. 
               jQuery was used for responsiveness and compatibility.
             </p>
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="button-row d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/portfolio-website';">
                   GitHub
@@ -762,12 +764,46 @@
     </div>
     <!-- End Card -->
 
+    <!-- Test - BOOTSTRAP CARD LAYOUT -->
+    <!-- <section class="software-section py-4" data-aos="fade-right" data-aos-duration="500">
+      <div class="card software-card shadow-md container">
+        <div class="row">
+          <div class="col-sm-8 col-md-10 pt-3">
+            <h4 class="text-white">
+              <i class="fa-solid fa-star"></i>
+              &nbsp;Portfolio Website&nbsp;
+              Badges
+              <span class="badge python-badge">Python</span>
+              <span class="badge jupyter-badge">Jupyter</span>
+              <span class="badge ml-badge">Machine Learning</span>
+              Badges
+            </h4>
+            <p>
+              This website! It was built using Bootstrap components, HTML, CSS, and JavaScript for animations. 
+              jQuery was used for responsiveness and compatibility.
+            </p>
+          </div>
+          <img class="sw-img col-md-2 py-4" src="./assets/images/portfolio/portfolio-logo-white.png">
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group pb-3">
+            <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/ann-mnist';">
+              GitHub
+            </button>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Test -->
+
     <!-- Card -->
     <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
       <div class="col">
         <div class="card software-card shadow-md">
           <div class="card-body">
-            <img class="sw-img" src="./assets/images/portfolio/mnist.png" height="150px"></img>
+            <div class="sw-img-container">
+              <img class="sw-img" src="./assets/images/portfolio/mnist.png" height="150px"></img>
+            </div>
             <div>
               <h4>
                 <!-- Highlight with fa-star -->
@@ -786,7 +822,7 @@
               array (28x28 pixels) which is fed into the input layer of the newtork. The output of the 
               network is the predicted digit that matches the handwritten input.
             </p>
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="button-row d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/ann-mnist';">
                   GitHub
@@ -804,7 +840,9 @@
       <div class="col">
         <div class="card software-card shadow-md">
           <div class="card-body">
-            <img class="sw-img" src="./assets/images/portfolio/aws-cloud.png" height="150px"></img>
+            <div class="sw-img-container">
+              <img class="sw-img" src="./assets/images/portfolio/aws-cloud.png" height="150px"></img>
+            </div>
             <div>
               <h4>
                 <!-- Highlight with fa-star -->
@@ -823,7 +861,7 @@
               triggering a serverless AWS Lambda function to parse the file, 
               which then formulates a query and stores the information in an AWS RDS PostgreSQL instance. 
             </p>
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="button-row d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/cloud-compute-vax-lambda';">
                   GitHub
@@ -841,7 +879,9 @@
       <div class="col">
         <div class="card software-card shadow-md">
           <div class="card-body">
-            <img class="sw-img" src="./assets/images/software/react-native-logo.png" height="150px"></img>
+            <div class="sw-img-container">
+              <img class="sw-img" src="./assets/images/software/react-native-logo.png" height="150px"></img>
+            </div>
             <div>
               <h4>
                 <!-- Highlight with fa-star -->
@@ -858,7 +898,7 @@
             <p>
               This is a cross-platform mobile application built using React Native for staying on task and keeping track of focused items.
             </p>
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="button-row d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/focustimeapp';">
                   GitHub
@@ -876,7 +916,9 @@
       <div class="col">
         <div class="card software-card shadow-md">
           <div class="card-body">
-            <img class="sw-img" src="./assets/images/portfolio/robofriends.png" height="150px"></img>
+            <div class="sw-img-container">
+              <img class="sw-img" src="./assets/images/portfolio/robofriends.png" height="150px"></img>
+            </div>
             <div>
               <h4>
                 <!-- Highlight with fa-star -->
@@ -893,7 +935,7 @@
             <p>
               Robofriends is a simple webpage made with React as part of the React Native Zero to Mastery course on Udemy.
             </p>
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="button-row d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/robofriends';">
                   GitHub
@@ -911,7 +953,9 @@
       <div class="col">
         <div class="card software-card shadow-md">
           <div class="card-body">
-            <img class="sw-img" src="./assets/images/portfolio/decision-tree.png" height="150px"></img>
+            <div class="sw-img-container">
+              <img class="sw-img" src="./assets/images/portfolio/decision-tree.png" height="150px"></img>
+            </div>
             <div>
               <h4>
                 <!-- Highlight with fa-star -->
@@ -931,9 +975,157 @@
               returning a prediction from the model, 
               etc. A 30000 row dataframe of US Census data was used for training and testing.
             </p>
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="button-row d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/ID3';">
+                  GitHub
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
+      <div class="col">
+        <div class="card software-card shadow-md">
+          <div class="card-body">
+            <div class="sw-img-container">
+              <img class="sw-img" src="./assets/images/software/java-logo.png" height="150px"></img>
+            </div>
+            <div>
+              <h4>
+                <!-- Highlight with fa-star -->
+                <!-- <i class="fa-solid fa-star"></i> -->
+                IMDB Movie Database&nbsp;
+                <!-- Badges -->
+                <span class="badge java-badge">Java</span>
+                <!-- Badges -->
+              </h4>
+            </div>
+            <p>
+              This project implements a movie database by reading from a CSV into an array, which
+              is then loaded into a hash table of red-black trees. Each red-black tree provides different 
+              search functionality: by year, IMDB score, language, and content rating. The application
+              prints out information for all of the movies in a search result set. This project was a component of 
+              my Algorithms course.
+            </p>
+            <div class="button-row d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/movie-database';">
+                  GitHub
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
+      <div class="col">
+        <div class="card software-card shadow-md">
+          <div class="card-body">
+            <div class="sw-img-container">
+              <img class="sw-img" src="./assets/images/software/java-logo.png" height="150px"></img>
+            </div>
+            <div>
+              <h4>
+                <!-- Highlight with fa-star -->
+                <!-- <i class="fa-solid fa-star"></i> -->
+                Convex Hull Builder&nbsp;
+                <!-- Badges -->
+                <span class="badge java-badge">Java</span>
+                <!-- Badges -->
+              </h4>
+            </div>
+            <p>
+              A convex hull is a series of line segments that surround a cluster of points, 
+              which is constructed in this program by use of an algorithm called Graham Scan.
+              This project was a component of my Algorithms course.
+            </p>
+            <div class="button-row d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/convex_hull';">
+                  GitHub
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
+      <div class="col">
+        <div class="card software-card shadow-md">
+          <div class="card-body">
+            <div class="sw-img-container">
+              <img class="sw-img" src="./assets/images/software/c-logo.png" height="150px"></img>
+            </div>
+            <div>
+              <h4>
+                <!-- Highlight with fa-star -->
+                <!-- <i class="fa-solid fa-star"></i> -->
+                Basic Unix Shell&nbsp;
+                <!-- Badges -->
+                <span class="badge c-badge">C</span>
+                <!-- Badges -->
+              </h4>
+            </div>
+            <p>
+              This is a basic unix shell with three built in commands: cd (change directory), 
+              pwd (print working directory), and exit. External commands are handled by a 
+              function called execExternal that tokenizes the input arguments, creates a child process using fork(),
+               passes the arguments to the child process using execvp, and then waits for the child to terminate.
+               This project was a component of my Operating Systems course.
+            </p>
+            <div class="button-row d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/basic-unix-shell';">
+                  GitHub
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
+      <div class="col">
+        <div class="card software-card shadow-md">
+          <div class="card-body">
+            <div class="sw-img-container">
+              <img class="sw-img" src="./assets/images/software/c-logo.png" height="150px"></img>
+            </div>
+            <div>
+              <h4>
+                <!-- Highlight with fa-star -->
+                <!-- <i class="fa-solid fa-star"></i> -->
+                Concurrency Webserver&nbsp;
+                <!-- Badges -->
+                <span class="badge c-badge">C</span>
+                <!-- Badges -->
+              </h4>
+            </div>
+            <p>
+              The goal of this project was to take a single-threaded web server and convert it into a multi-threaded 
+              web server using a producer thread, buffer, consumer threads, locks, and condition variable signaling.
+              This project was a component of my Operating Systems course.
+            </p>
+            <div class="button-row d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/concurrency-webserver';">
                   GitHub
                 </button>
               </div>
