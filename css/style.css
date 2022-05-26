@@ -212,7 +212,7 @@ body {
 .software-card {
 	background-color: var(--bs-gray-dark);
 	color: var(--bs-light);
-	text-align: justify;
+	/* text-align: justify; */
 }
 
 .software-card p {
@@ -280,6 +280,11 @@ body {
 	.software-card p {
 		max-width: 100%;
 	}
+
+	.portrait {
+		object-fit: scale-down;
+		max-height: 300px;
+	}
 }
 
 /* Safari hack for image scaling issue */
@@ -315,7 +320,7 @@ container scaling to fix spillover into surrounding divs */
 	}
 
 	.capstone .container {
-		width: 70%;
+		width: 65%;
 		transform: translate(22%, 0%);
 	}
   }
