@@ -271,11 +271,11 @@ container scaling to fix spillover into surrounding divs */
 	.content {
 		zoom: 0.8;
 		-moz-transform: scale(0.8);
-		min-width: 50vw;
+		min-width: 70vw;
 	}
 
 	.content h2 {
-		zoom: 0.8;
+		zoom: 0.7;
 		-moz-transform: scale(0.8);
 	}
 
