@@ -1,6 +1,6 @@
 # TODO
 
-- Update buttons to anchors with target="_blank" to open links in new tabs
+- ~~Update buttons to anchors with target="_blank" to open links in new tabs~~
 - Update Showcase wording
 - Update About wording
 - Update Capstone modal
@@ -12,3 +12,4 @@
 - Remove some of the "part of my x course" software portfolio items
 - Make mechanical images clickable links to open the image in full size
 - Reduce wordiness of some sections by including bulleted lists instead of large paragraphs. Add more line breaks.
+- Refactor to implement JavaScript looping to populate repeated HTML elements (cards) instead of brute-forcing the entire HTML document
