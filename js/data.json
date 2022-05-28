@@ -1,0 +1,175 @@
+{
+	"software-section": [
+		{
+			"img-src": "./assets/images/software/java-logo.png",
+			"bg-position": "0% 0%",
+			"img-title": "Java Logo",
+			"card-text": "Java",
+			"data-target": "#javamodal",
+			"modal-id": "javamodal",
+			"modal-title": "Java Experience",
+			"modal-body": "java"
+	
+		},
+		{
+			"img-src": "./assets/images/software/Csharp_Logo.png",
+			"bg-position": "15% 0%",
+			"img-title": ".NET Logo",
+			"card-text": ".NET / C#",
+			"data-target": "#netmodal",
+			"modal-id": "netmodal",
+			"modal-title": ".NET / C# Experience",
+			"modal-body": "net"
+		},
+		{
+			"img-src": "./assets/images/software/cplus_logo.png",
+			"bg-position": "30% 0%",
+			"img-title": "C++ Logo",
+			"card-text": "C++",
+			"data-target": "#cplusmodal",
+			"modal-id": "cplusmodal",
+			"modal-title": "C++ Experience",
+			"modal-body": "c++"
+		},
+		{
+			"img-src": "./assets/images/software/python_logo.png",
+			"bg-position": "45% 0%",
+			"img-title": "Python Logo",
+			"card-text": "Python",
+			"data-target": "#pythonmodal",
+			"modal-id": "pythonmodal",
+			"modal-title": "Python Experience",
+			"modal-body": "hiss"
+		},
+		{
+			"img-src": "./assets/images/software/n-react_logo.png",
+			"bg-position": "60% 0%",
+			"img-title": "React Logo",
+			"card-text": "React",
+			"data-target": "#reactmodal",
+			"modal-id": "reactmodal",
+			"modal-title": "React Experience",
+			"modal-body": "react"
+		},
+		{
+			"img-src": "./assets/images/software/react-native-logo.png",
+			"bg-position": "0% 30%",
+			"img-title": "React Native Logo",
+			"card-text": "React Native",
+			"data-target": "#reactnativemodal",
+			"modal-id": "reactnativemodal",
+			"modal-title": "React Experience",
+			"modal-body": "react native"
+		},
+		{
+			"img-src": "./assets/images/software/JavaScript-logo.png",
+			"bg-position": "15% 30%",
+			"img-title": "JS Logo",
+			"card-text": "JavaScript",
+			"data-target": "#jsmodal",
+			"modal-id": "jsmodal",
+			"modal-title": "JavaScript Experience",
+			"modal-body": "js"
+		},
+		{
+			"img-src": "./assets/images/software/kubernetes-logo.png",
+			"bg-position": "30% 30%",
+			"img-title": "Kubernetes Logo",
+			"card-text": "Kubernetes",
+			"data-target": "#kubermodal",
+			"modal-id": "kubermodal",
+			"modal-title": "Kubernetes Experience",
+			"modal-body": "k8s"
+		},
+		{
+			"img-src": "./assets/images/software/docker-logo.webp",
+			"bg-position": "45% 30%",
+			"img-title": "Docker Logo",
+			"card-text": "Docker",
+			"data-target": "#dockermodal",
+			"modal-id": "dockermodal",
+			"modal-title": "Docker Experience",
+			"modal-body": "dock"
+		},
+		{
+			"img-src": "./assets/images/software/cloud-computing-white.png",
+			"bg-position": "60% 30%",
+			"img-title": "Cloud Logo",
+			"card-text": "Cloud Computing",
+			"data-target": "#cloudmodal",
+			"modal-id": "cloudmodal",
+			"modal-title": "Cloud Computing Experience",
+			"modal-body": "cloud"
+		},
+		{
+			"img-src": "./assets/images/software/htmlcss-logo.png",
+			"bg-position": "0% 60%",
+			"img-title": "HTML/CSS Logo",
+			"card-text": "HTML / CSS",
+			"data-target": "#htmlcssmodal",
+			"modal-id": "htmlcssmodal",
+			"modal-title": "HTML / CSS Experience",
+			"modal-body": "I built this website!"
+		},
+		{
+			"img-src": "./assets/images/software/machine-learning-logo.png",
+			"bg-position": "15% 60%",
+			"img-title": "ML Logo",
+			"card-text": "Machine Learning",
+			"data-target": "#mlmodal",
+			"modal-id": "mlmodal",
+			"modal-title": "Machine Learning Experience",
+			"modal-body": "machine learns"
+		},
+		{
+			"img-src": "./assets/images/software/aws-light-logo.png",
+			"bg-position": "30% 60%",
+			"img-title": "AWS Logo",
+			"card-text": "AWS",
+			"data-target": "#awsmodal",
+			"modal-id": "awsmodal",
+			"modal-title": "AWS Experience",
+			"modal-body": "aws"
+		},
+		{
+			"img-src": "./assets/images/software/database-centered-logo.png",
+			"bg-position": "45% 60%",
+			"img-title": "Databases Logo",
+			"card-text": "Database Systems",
+			"data-target": "#dbmodal",
+			"modal-id": "dbmodal",
+			"modal-title": "Database Systems Experience",
+			"modal-body": "db"
+		},
+		{
+			"img-src": "./assets/images/software/iot-logo.png",
+			"bg-position": "60% 60%",
+			"img-title": "IOT Logo",
+			"card-text": "IoT Devices",
+			"data-target": "#iotmodal",
+			"modal-id": "iotmodal",
+			"modal-title": "IoT Device Experience",
+			"modal-body": "iot!"
+		}
+	],
+	"portfolio-section": [
+		{
+			"img-src": "./assets/images/software/java-logo.png",
+	
+		},
+		{
+			"img-src": "./assets/images/software/java-logo.png",
+	
+		}
+	],
+	"mech-section":[
+		{
+			"img-src": "./assets/images/software/java-logo.png",
+	
+		},
+		{
+			"img-src": "./assets/images/software/java-logo.png",
+	
+		}
+	]
+}
