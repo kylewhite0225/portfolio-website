@@ -13,3 +13,6 @@
 - Make mechanical images clickable links to open the image in full size
 - Reduce wordiness of some sections by including bulleted lists instead of large paragraphs. Add more line breaks.
 - Refactor to implement JavaScript looping to populate repeated HTML elements (cards) instead of brute-forcing the entire HTML document
+- ~~Darken all of the card elements~~
+- Adjust the card background colors, mech section background and tech section background colors
+- Adjust modal background (and border) colors
