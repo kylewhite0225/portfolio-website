@@ -136,6 +136,10 @@ body {
 	width: 100%;
 }
 
+.btn-container {
+	padding: 0.2rem;
+}
+
 /* END CAPSTONE SECTION */
 
 /* WORK SECTION */
@@ -180,6 +184,11 @@ body {
 
 /* TECHNOLOGIES SECTION */
 
+.tech {
+	/* background-color: rgb(23, 41, 35); */
+	background-color: black;
+}
+
 .tech-image {
 	/* font-size: 1.125rem; */
 	/* text-anchor: middle; */
@@ -188,9 +197,16 @@ body {
 	-moz-user-select: none;
 	user-select: none;
 	background-image:
-		linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
+		/* linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), */
 		url(../assets/images/topography-overlay.png);
   }
+
+.dark-card {
+	/* background-color: #181a1b; */
+	background-color: var(--bs-gray-dark);
+	border-color: #272827;
+	color: var(--bs-light);
+}
 
 .card
 {
@@ -205,6 +221,21 @@ body {
 .modal-body 
 {
 	text-align: justify;
+}
+
+.modal-content {
+	background-color: var(--bs-gray-dark);
+	color: var(--bs-light);
+}
+
+.modal-header {
+	background-color: #212529;
+	border-bottom: 1px solid var(--bs-success);
+}
+
+.modal-footer {
+	background-color: #212529;
+	border-top: 1px solid var(--bs-success);
 }
 
 /* Software Portfolio Section */
@@ -261,6 +292,14 @@ body {
 }
 
 /* End Mech Portfolio Section */
+
+footer {
+	background-color: var(--bs-gray-dark);
+}
+
+footer p {
+	color: var(--bs-light);
+}
 
 /* Breakpoint for responsiveness */
 @media screen and (max-width: 800px) {
@@ -323,7 +362,6 @@ container scaling to fix spillover into surrounding divs */
 		transform: translate(22%, 0%);
 	}
   }
-
 
 /* Badges */
 
