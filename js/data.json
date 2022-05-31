@@ -22,7 +22,7 @@
 			"modal-body": "net"
 		},
 		{
-			"img-src": "./assets/images/software/cplus_logo.png",
+			"img-src": "./assets/images/software/cplus-logo.png",
 			"bg-position": "30% 0%",
 			"img-title": "C++ Logo",
 			"card-text": "C++",
@@ -32,7 +32,7 @@
 			"modal-body": "c++"
 		},
 		{
-			"img-src": "./assets/images/software/python_logo.png",
+			"img-src": "./assets/images/software/python-logo.png",
 			"bg-position": "45% 0%",
 			"img-title": "Python Logo",
 			"card-text": "Python",
@@ -42,7 +42,7 @@
 			"modal-body": "hiss"
 		},
 		{
-			"img-src": "./assets/images/software/n-react_logo.png",
+			"img-src": "./assets/images/software/n-react-logo.png",
 			"bg-position": "60% 0%",
 			"img-title": "React Logo",
 			"card-text": "React",
@@ -154,22 +154,18 @@
 	],
 	"portfolio-section": [
 		{
-			"img-src": "./assets/images/software/java-logo.png",
-	
+			"img-src": "./assets/images/software/java-logo.png"
 		},
 		{
-			"img-src": "./assets/images/software/java-logo.png",
-	
+			"img-src": "./assets/images/software/java-logo.png"
 		}
 	],
 	"mech-section":[
 		{
-			"img-src": "./assets/images/software/java-logo.png",
-	
+			"img-src": "./assets/images/software/java-logo.png"
 		},
 		{
-			"img-src": "./assets/images/software/java-logo.png",
-	
+			"img-src": "./assets/images/software/java-logo.png"
 		}
 	]
 }
