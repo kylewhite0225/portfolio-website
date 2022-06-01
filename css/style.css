@@ -279,9 +279,9 @@ body {
 
 /* Mechanical Portfolio Section */
 
-.mech-card {
-	/* object-fit: scale-d */
-}
+/* .mech-card {
+	object-fit: scale-d
+} */
 
 .mech-img {
 	object-fit: scale-down;
@@ -338,17 +338,20 @@ container scaling to fix spillover into surrounding divs */
 @media (-webkit-min-device-pixel-ratio: 1.3) {
 	.content {
 		zoom: 0.8;
+		transform: scale(0.8);
 		-moz-transform: scale(0.8);
 		min-width: 70vw;
 	}
 
 	.content h2 {
 		zoom: 0.7;
+		transform: scale(0.8);
 		-moz-transform: scale(0.8);
 	}
 
 	.content h4 {
 		zoom: 0.8;
+		transform: scale(0.8);
 		-moz-transform: scale(0.8);
 	}
 
