@@ -281,7 +281,85 @@
 	],
 	"mech-section": [
 		{
-			"img-src": "./assets/images/software/java-logo.png"
+			"card-text": "Pagani Zonda Surface Model",
+			"img-src": "./assets/images/mechanical/portfolio-img1.jpg",
+			"img-title": "Pagani Zonda Surface Model",
+			"data-target": "#mech1",
+			"modal-id": "mech1",
+			"modal-title": "Pagani Zonda Surface Model",
+			"modal-body": "This is a surface CAD model built in CATIA V5 using a 3D scan of a toy Pagani Zonda. The 3D scan data was captured as a point cloud then converted into a mesh structure. A set of wireframe geometry was then built upon this structure. Surfaces were generated from this wireframe geometry using various techniques, and materials were applied for rendering."
+		},
+		{
+			"card-text": "Viking 58 Front Suspension",
+			"img-src": "./assets/images/mechanical/portfolio-img5.jpg",
+			"img-title": "Front Wheel Hub",
+			"data-target": "#mech2",
+			"modal-id": "mech2",
+			"modal-title": "Viking 58 Front Suspension",
+			"modal-body": "Pictured is the outboard view of the front suspension with the front wheel hub, spindle, brake rotor, brake caliper, and carbon fiber chassis visible. The rotor and wheel hub are pocketed extensively for weight reduction and for better heat dissipation as the brakes convert kinetic energy into thermal energy during stopping. The 7075-T6 aluminum hub has been hard anodized for surface durability, and the 4340 steel spindle has been bored through for weight reduction. The aluminum wheel hub is mounted to the steel spindle via an interference fit, and the brake calipter is mounted with a waterjet steel bracket that is visible in the rear view of the front suspension."
+		},
+		{
+			"card-text": "Viking 58 Front Suspension",
+			"img-src": "./assets/images/mechanical/portfolio-img8.jpg",
+			"img-title": "Front Suspension",
+			"data-target": "#mech3",
+			"modal-id": "mech3",
+			"modal-title": "Viking 58 Front Suspension",
+			"modal-body": "Pictured is inboard view of the front suspension assembly of Viking 58, with the upright, brake rotor, wheel hub, control arms, pushrod, brake caliper, brake caliper mounting arm, mounting clevises, steering link, and castellated bearing retention nut visible. This package was modeled and analyzed in CATIA V5, and the upright was machined by myself on a Haas VF-4 CNC Mill."
+		},
+		{
+			"card-text": "Viking 58 Rear Suspension",
+			"img-src": "./assets/images/mechanical/portfolio-img2.jpg",
+			"img-title": "Rear Suspension",
+			"data-target": "#mech4",
+			"modal-id": "mech4",
+			"modal-title": "Viking 58 Rear Suspension",
+			"modal-body": "Pictured is the rear suspension assembly of Viking 58, with components such as the drive axle, push rod, bellcrank, upright, control arms, and brake rotor visible. This package was modeled and analyzed in CATIA V5. The inboard CV (constant velocity) axle joints and bellcranks were machined by myself on a Haas VF-4 CNC Mill."
+		},
+		{
+			"card-text": "Viking 58 Rear Wheel Hub",
+			"img-src": "./assets/images/mechanical/portfolio-img3.jpg",
+			"img-title": "Rear Wheel Hub",
+			"data-target": "#mech5",
+			"modal-id": "mech5",
+			"modal-title": "Viking 58 Rear Wheel Hub",
+			"modal-body": "Pictured is the rear wheel hub, which is extensively pocketed for weight reduction. Stiffening ribs were added to ensure that the vehicle can still move under power with backup drive pins in the case of a failure that may reduce the drive friction at the interface between the wheel hub and the wheel. A constant velocity interface is integrated on the underside of the hub, and the steel stud is threaded through the back. This component assembly was modeled and analyzed in CATIA V5."
+		},
+		{
+			"card-text": "WWU Racing Viking 58",
+			"img-src": "./assets/images/mechanical/portfolio-img4.jpg",
+			"img-title": "Viking 58",
+			"data-target": "#mech6",
+			"modal-id": "mech6",
+			"modal-title": "WWU Racing Viking 58",
+			"modal-body": "This is the completed viking 58 race car which was brought to competition in Lincoln, NE in June of 2017, one year after I graduated. The chassis of the vehicle is composed of a carbon fiber composite monocoque and a steel tube subframe. The vehicle is powered by a 600cc Honda CBR RR engine, with a custom intake manifold governed by a regulatory 10 mm restriction. The supsension is composed of a double wishbone setup with rocker actuated Cane Creek air dampers normally fitted on mountain bikes. Each corner package consists of a custom upright, spindle, bearing package, wheel hub, and braking interface (designed by myself), as well as the brake rotors and Wilwood brakes. The suspension components were used on two more successive generations of vehicles. All components were modeled, assembled, analyzed, and simulated using CATIA V5. "
+		},
+		{
+			"card-text": "BMW M20B25 Cylinder Head",
+			"img-src": "./assets/images/mechanical/portfolio-img7.jpg",
+			"img-title": "BMW M20B25",
+			"data-target": "#mech7",
+			"modal-id": "mech7",
+			"modal-title": "BMW M20B25 Cylinder Head",
+			"modal-body": "Pictured is the partially assembled head from the 2.5 liter inline 6 that powers the BMW 325is. Disassembly and assembly was perfomed by myself, and a new set of rockers, camshaft, and rocker shafts were installed. Along with the head refurbishment came replacement of all head and intake gaskets as well as the timing belt, water pump, cooling hoses, and radiator. The head was checked for flatness, machined, pressure tested, and had the valve seals replaced and seats ground by C&D machine in Kirkland, WA."
+		},
+		{
+			"card-text": "BMW 325is Engine Bay",
+			"img-src": "./assets/images/mechanical/portfolio-img6.jpg",
+			"img-title": "Engine Bay",
+			"data-target": "#mech8",
+			"modal-id": "mech8",
+			"modal-title": "BMW 325is Engine Bay",
+			"modal-body": "Pictured is the engine bay of my 1988 BMW 325is that I picked up during my time at WWU as a project and for personal transportation. During the Spring of 2020, I embarked on a complete refurbishment of the top end of the engine accompanied by a thorough steam clean of the engine bay, with fresh powdercoating on many of the visible components."
+		},
+		{
+			"card-text": "1988 BMW 325is",
+			"img-src": "./assets/images/mechanical/325is-portfolio.jpg",
+			"img-title": "1988 BMW 325is",
+			"data-target": "#mech9",
+			"modal-id": "mech9",
+			"modal-title": "1988 BMW 325is",
+			"modal-body": "Pictured is the exterior of my 1988 BMW 325is that I purchased in 2013 as a project and for personal transportation. Some of the work I have performed includes the engine refurbishment as pictured and a complete suspension overhaul including springs, dampers, anti-roll bars, linkages, bushings, rear subframe, and strut mounts. While the rear subframe was out, I had the subframe and control arms powder coated, and replaced the shifter linkage, short shifter, driveline, one drive axle, and center support bearing. I replaced the steering rack with a faster ratio conversion in 2014, and completed a brake overhaul including pads, rotors, and rebuilding of the calipers in 2015. The seats were replaced with reupholstered seats, carpet replaced, and entire dashboard replaced in 2016."
 		}
 	]
 }
