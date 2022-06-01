@@ -9,7 +9,6 @@
 			"modal-id": "javamodal",
 			"modal-title": "Java Experience",
 			"modal-body": "java"
-	
 		},
 		{
 			"img-src": "./assets/images/software/Csharp_Logo.png",
@@ -154,16 +153,133 @@
 	],
 	"portfolio-section": [
 		{
-			"img-src": "./assets/images/software/java-logo.png"
+			"card-title": "Portfolio Website",
+			"img-src": "./assets/images/portfolio/portfolio-logo-white.png",
+			"highlight": true,
+			"badges": [
+				"bs",
+				"html",
+				"css",
+				"js"
+			],
+			"db-tech": "",
+			"card-text": "This website! It was built using Bootstrap components, HTML, CSS, and JavaScript for animations. jQuery was used for responsiveness and compatibility. Module automation (sections with repeated card elements) was handled with JavaScript and JSON. CI/CD was handled through AWS Amplify.",
+			"github-link": "https://github.com/kylewhite0225/portfolio-website"
 		},
 		{
-			"img-src": "./assets/images/software/java-logo.png"
+			"card-title": "Artificial Neural Network - MNIST",
+			"img-src": "./assets/images/portfolio/mnist.png",
+			"highlight": true,
+			"badges": [
+				"python",
+				"jupyter",
+				"ml"
+			],
+			"db-tech": "",
+			"card-text": "This project is an exploration of artificial neural networks using the small batch backpropagation algorithm. Each image in the MNIST dataset is broken down into a 1 x 784 array (28x28 pixels) which is fed into the input layer of the newtork. The output of the network is the predicted digit that matches the handwritten input.",
+			"github-link": "https://github.com/kylewhite0225/ann-mnist"
+		},
+		{
+			"card-title": "Cloud Vaccine Information Database",
+			"img-src": "./assets/images/portfolio/aws-cloud.png",
+			"highlight": true,
+			"badges": [
+				"csharp",
+				"aws",
+				"cloud",
+				"db"
+			],
+			"db-tech": "PostgreSQL",
+			"card-text": "This project includes a utility for uploading XML/JSON objects to Amazon S3, triggering a serverless AWS Lambda function to parse the file, which then formulates a query and stores the information in an AWS RDS PostgreSQL instance.",
+			"github-link": "https://github.com/kylewhite0225/cloud-compute-vax-lambda"
+		},
+		{
+			"card-title": "ID3 - Decision Tree Algorithm",
+			"img-src": "./assets/images/portfolio/decision-tree.png",
+			"highlight": true,
+			"badges": [
+				"python",
+				"jupyter",
+				"ml"
+			],
+			"db-tech": "",
+			"card-text": "This project is an implementation of the ID3 Decision Tree Algorithm written in Python. Several helper functions were created for gathering entropy and information gain choosing the best features of a dataset (based on information gain), returning a prediction from the model, etc. A 30000 row dataframe of US Census data was used for training and testing.",
+			"github-link": "https://github.com/kylewhite0225/ID3"
+		},
+		{
+			"card-title": "Focus Time App",
+			"img-src": "./assets/images/software/react-native-logo.png",
+			"highlight": true,
+			"badges": [
+				"reactn",
+				"js",
+				"html",
+				"css"
+			],
+			"db-tech": "PostgreSQL",
+			"card-text": "This is a cross-platform mobile application built using React Native for staying on task and keeping track of focused items.",
+			"github-link": "https://github.com/kylewhite0225/focustimeapp"
+		},
+		{
+			"card-title": "Robofriends",
+			"img-src": "./assets/images/portfolio/robofriends.png",
+			"highlight": false,
+			"badges": [
+				"react",
+				"js",
+				"html",
+				"css"
+			],
+			"db-tech": "",
+			"card-text": "Robofriends is a simple webpage made with React as part of the React Native Zero to Mastery course on Udemy.",
+			"github-link": "https://github.com/kylewhite0225/robofriends"
+		},
+		{
+			"card-title": "IMDB Movie Database",
+			"img-src": "./assets/images/software/java-logo.png",
+			"highlight": false,
+			"badges": [
+				"java"
+			],
+			"db-tech": "",
+			"card-text": "This project implements a movie database by reading from a CSV into an array, which is then loaded into a hash table of red-black trees. Each red-black tree provides different search functionality: by year, IMDB score, language, and content rating. The application prints out information for all of the movies in a search result set. This project was a component of my Algorithms course.",
+			"github-link": "https://github.com/kylewhite0225/movie-database"
+		},
+		{
+			"card-title": "Convex Hull Builder",
+			"img-src": "./assets/images/software/java-logo.png",
+			"highlight": false,
+			"badges": [
+				"java"
+			],
+			"db-tech": "",
+			"card-text": "A convex hull is a series of line segments that surround a cluster of points, which is constructed in this program by use of an algorithm called Graham Scan. This project was a component of my Algorithms course.",
+			"github-link": "https://github.com/kylewhite0225/convex_hull"
+		},
+		{
+			"card-title": "Basic Unix Shell",
+			"img-src": "./assets/images/software/c-logo.png",
+			"highlight": false,
+			"badges": [
+				"c"
+			],
+			"db-tech": "",
+			"card-text": "This is a basic unix shell with three built in commands: cd (change directory), pwd (print working directory), and exit. External commands are handled by a function that tokenizes the input, creates a child using fork(), passes the arguments to the child using execvp, and then waits for the child to terminate. This project was a component of my Operating Systems course.",
+			"github-link": "https://github.com/kylewhite0225/basic-unix-shell"
+		},
+		{
+			"card-title": "Concurrency Webserver",
+			"img-src": "./assets/images/software/c-logo.png",
+			"highlight": false,
+			"badges": [
+				"c"
+			],
+			"db-tech": "",
+			"card-text": "The goal of this project was to take a single-threaded web server and convert it into a multi-threaded web server using a producer thread, buffer, consumer threads, locks, and condition variable signaling. This project was a component of my Operating Systems course.",
+			"github-link": "https://github.com/kylewhite0225/concurrency-webserver"
 		}
 	],
-	"mech-section":[
-		{
-			"img-src": "./assets/images/software/java-logo.png"
-		},
+	"mech-section": [
 		{
 			"img-src": "./assets/images/software/java-logo.png"
 		}
