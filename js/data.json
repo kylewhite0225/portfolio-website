@@ -163,20 +163,6 @@
 	],
 	"portfolio-section": [
 		{
-			"card-title": "Portfolio Website",
-			"img-src": "./assets/images/portfolio/portfolio-logo-white.png",
-			"highlight": true,
-			"badges": [
-				"bs",
-				"html",
-				"css",
-				"js"
-			],
-			"db-tech": "",
-			"card-text": "This website! It was built using Bootstrap components, HTML, CSS, and JavaScript for animations. jQuery was used for responsiveness and compatibility. Module automation (sections with repeated card elements) was handled with JavaScript and JSON. CI/CD was handled through AWS Amplify.",
-			"github-link": "https://github.com/kylewhite0225/portfolio-website"
-		},
-		{
 			"card-title": "Artificial Neural Network - MNIST",
 			"img-src": "./assets/images/portfolio/mnist.png",
 			"highlight": true,
@@ -204,6 +190,33 @@
 			"github-link": "https://github.com/kylewhite0225/cloud-compute-vax-lambda"
 		},
 		{
+			"card-title": "Portfolio Website",
+			"img-src": "./assets/images/portfolio/portfolio-logo-white.png",
+			"highlight": true,
+			"badges": [
+				"bs",
+				"html",
+				"css",
+				"js"
+			],
+			"db-tech": "",
+			"card-text": "This website! It was built using Bootstrap components, HTML, CSS, and JavaScript for animations. jQuery was used for responsiveness and compatibility. Module automation (sections with repeated card elements) was handled with JavaScript and JSON. CI/CD was handled through AWS Amplify.",
+			"github-link": "https://github.com/kylewhite0225/portfolio-website"
+		},
+		{
+			"card-title": "Cloud/Local Hybrid Patient Database",
+			"img-src": "./assets/images/portfolio/aws-cloud.png",
+			"highlight": true,
+			"badges": [
+				"csharp",
+				"aws",
+				"cloud"
+			],
+			"db-tech": "",
+			"card-text": "This project includes a utility for uploading XML objects to Amazon S3, triggering a serverless AWS Lambda function which places a JSON message in an AWS SQS downward queue which is being monitored by a Windows service. This service responds with patient information in an upward queue is printed to Cloudwatch by a second Lambda function.",
+			"github-link": "https://github.com/kylewhite0225/cloud-hybrid-patient-db/"
+		},
+		{
 			"card-title": "ID3 - Decision Tree Algorithm",
 			"img-src": "./assets/images/portfolio/decision-tree.png",
 			"highlight": true,
@@ -213,7 +226,7 @@
 				"ml"
 			],
 			"db-tech": "",
-			"card-text": "This project is an implementation of the ID3 Decision Tree Algorithm written in Python. Several helper functions were created for gathering entropy and information gain choosing the best features of a dataset (based on information gain), returning a prediction from the model, etc. A 30000 row dataframe of US Census data was used for training and testing.",
+			"card-text": "This project is an implementation of the ID3 Decision Tree Algorithm written in Python. Several helper functions were created for gathering entropy and information gain, choosing the best features of a dataset (based on information gain), returning a prediction from the model, etc. A 30000 row dataframe of US Census data was used for training and testing.",
 			"github-link": "https://github.com/kylewhite0225/ID3"
 		},
 		{
@@ -252,7 +265,7 @@
 				"java"
 			],
 			"db-tech": "",
-			"card-text": "This project implements a movie database by reading from a CSV into an array, which is then loaded into a hash table of red-black trees. Each red-black tree provides different search functionality: by year, IMDB score, language, and content rating. The application prints out information for all of the movies in a search result set. This project was a component of my Algorithms course.",
+			"card-text": "This project implements a movie database by reading from a CSV into an array, which is then loaded into a hash table of red-black trees. Each red-black tree provides different search functionality: by year, IMDB score, language, and content rating. The application prints out information for all of the movies in a search result set.",
 			"github-link": "https://github.com/kylewhite0225/movie-database"
 		},
 		{
@@ -263,8 +276,19 @@
 				"java"
 			],
 			"db-tech": "",
-			"card-text": "A convex hull is a series of line segments that surround a cluster of points, which is constructed in this program by use of an algorithm called Graham Scan. This project was a component of my Algorithms course.",
+			"card-text": "A convex hull is a series of line segments that surround a cluster of points, which is constructed in this program by use of an algorithm called Graham Scan.",
 			"github-link": "https://github.com/kylewhite0225/convex_hull"
+		},
+		{
+			"card-title": "UPC Reader",
+			"img-src": "./assets/images/software/cplus-logo.png",
+			"highlight": false,
+			"badges": [
+				"cplus"
+			],
+			"db-tech": "",
+			"card-text": "This package is a simple UPC reader application. A list of common items and their UPC is stored in CSV format, and the file is read into a binary search tree. This program allows the user to search by UPC, which returns the item description and the lookup time.",
+			"github-link": "https://github.com/kylewhite0225/UPC-Reader"
 		},
 		{
 			"card-title": "Basic Unix Shell",
@@ -274,7 +298,7 @@
 				"c"
 			],
 			"db-tech": "",
-			"card-text": "This is a basic unix shell with three built in commands: cd (change directory), pwd (print working directory), and exit. External commands are handled by a function that tokenizes the input, creates a child using fork(), passes the arguments to the child using execvp, and then waits for the child to terminate. This project was a component of my Operating Systems course.",
+			"card-text": "This is a basic unix shell with three built in commands: cd (change directory), pwd (print working directory), and exit. External commands are handled by a function that tokenizes the input, creates a child using fork(), passes the arguments to the child using execvp, and then waits for the child to terminate.",
 			"github-link": "https://github.com/kylewhite0225/basic-unix-shell"
 		},
 		{
@@ -285,7 +309,7 @@
 				"c"
 			],
 			"db-tech": "",
-			"card-text": "The goal of this project was to take a single-threaded web server and convert it into a multi-threaded web server using a producer thread, buffer, consumer threads, locks, and condition variable signaling. This project was a component of my Operating Systems course.",
+			"card-text": "The goal of this project was to take a single-threaded web server and convert it into a multi-threaded web server using a producer thread, buffer, consumer threads, locks, and condition variable signaling.",
 			"github-link": "https://github.com/kylewhite0225/concurrency-webserver"
 		}
 	],
