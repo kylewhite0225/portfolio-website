@@ -94,7 +94,7 @@ fetch("./js/data.json")
 						<div>
 							<h4>`;
 			
-			if(element["highlight"] == "true") {
+			if(element["highlight"]) {
 				cardString +=
 				`
 				<!-- Highlight with fa-star -->
