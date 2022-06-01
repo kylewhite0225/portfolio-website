@@ -37,41 +37,39 @@ fetch("./js/data.json")
 			let modalBody = element["modal-body"];
 
 			// Get software-section-container HTML element and append card HTML
-			// elements with paramaterized components. Turns out 
-			// multi-line comments don't need to escape quotes, so I didn't need to do that,
-			// nor did I have to add newline and tab characters for readability because the browser
-			// doesn't care.
+			// elements with paramaterized components.
 			document.getElementById("software-section-container").innerHTML += 
 			`<!-- Software Card -->
-			\n<div data-aos=\"fade-left\" data-aos-duration=\"500\" class=\"col\">
-			\n  <div class=\"card dark-card shadow-sm\">
-			\n\t<img src=\"${imgSrc}\" class=\"tech-image card-img-top\" height=\"225\" role=\"img\" aria-label=\"Placeholder: Thumbnail\" focusable=\"false\" style=\"background-position: ${bgPosition}\"><title>${imgTitle}</title><rect width=\"100%\" height=\"100%\" fill=\"#55595c\"/></img>
-			\n\n\t<div class=\"card-body\">
-			\n\t  <p class=\"card-text\">${cardText}</p>
-			\n\t  <div class=\"d-flex justify-content-between align-items-center\">
-			\n\t\t<div class=\"btn-group\">
-			\n\t\t  <button type=\"button\" class=\"btn btn-sm btn-success\" data-bs-toggle=\"modal\" data-bs-target=\"${dataTarget}\">More Info</button>
-			\n\t\t</div>
-			\n\t  </div>
-			\n\t</div>\n  
+			<div data-aos="fade-left" data-aos-duration="500" class="col">
+				<div class="card dark-card shadow-sm">
+					<img src="${imgSrc}" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: ${bgPosition}"><title>${imgTitle}</title><rect width="100%" height="100%" fill="#55595c"/></img>
+					<div class="card-body">
+						<p class="card-text">${cardText}</p>
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="${dataTarget}">More Info</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			\n</div>
-			\n\n<!-- Modal -->
-			\n<div class=\"modal fade\" id=\"${modalId}\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\">
-			\n  <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">
-			\n\t<div class=\"modal-content\">
-			\n\t  <div class=\"modal-header\">
-			\n\t\t<h5 class=\"modal-title\" id=\"exampleModalLongTitle\">${modalTitle}</h5>
-			\n\t  </div>
-			\n\t  <div class=\"modal-body\">
-			\n\t\t${modalBody}
-			\n\t  </div>
-			\n\t  <div class=\"modal-footer\">
-			\n\t\t<button type=\"button\" class=\"btn btn-success\" data-bs-dismiss=\"modal\">Close</button>
-			\n\t  </div>
-			\n\t</div>
-			\n  </div>
-			\n</div>`;
+
+			<!-- Modal -->
+			<div class="modal fade" id="${modalId}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">${modalTitle}</h5>
+						</div>
+						<div class="modal-body">
+							${modalBody}
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>`;
 		});
 
 		// Get portfolio-section HTML element and append card HTML
@@ -162,6 +160,51 @@ fetch("./js/data.json")
 		// Get mech-section HTML element and append card HTML
 		// elements with paramaterized components
 		jsondata["mech-section"].forEach(element => {
-			// console.log(element);
+			// Extract the current element's elements for string formatting
+			let imgSrc = element["img-src"];
+			let imgTitle = element["img-title"];
+			let cardText = element["card-text"];
+			let dataTarget = element["data-target"];
+			let modalId = element["modal-id"];
+			let modalTitle = element["modal-title"];
+			let modalBody = element["modal-body"];
+
+			// Get software-section-container HTML element and append card HTML
+			// elements with paramaterized components.
+			document.getElementById("mech-portfolio-container").innerHTML +=
+			`
+			<div data-aos="fade-left" data-aos-duration="500" class="col">
+				<div class="card dark-card mech-card shadow-sm">
+					<img class="mech-img" src="${imgSrc}" alt="${imgTitle}">
+					<div class="card-body">
+						<p class="card-text">${cardText}</p>
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="btn-group">
+								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="${dataTarget}">More Info</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Modal -->
+			<div class="modal fade" id="${modalId}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">${modalTitle}</h5>
+						</div>
+						<div class="modal-body">
+							${modalBody}
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div> 
+			`;
 		});
 	});
+
+
