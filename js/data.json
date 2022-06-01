@@ -8,7 +8,7 @@
 			"data-target": "#javamodal",
 			"modal-id": "javamodal",
 			"modal-title": "Java Experience",
-			"modal-body": "java"
+			"modal-body": "Object-oriented programming in Java."
 		},
 		{
 			"img-src": "./assets/images/software/Csharp_Logo.png",
