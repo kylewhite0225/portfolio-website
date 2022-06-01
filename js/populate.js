@@ -26,7 +26,7 @@ fetch("./js/data.json")
 	.then(jsondata => {
 		// Loop through each element of software section set all of the parameters
 		jsondata["software-section"].forEach(element => {
-			// Create variables for string formatting
+			// Extract the current element's elements for string formatting
 			let imgSrc = element["img-src"];
 			let bgPosition = element["bg-position"];
 			let imgTitle = element["img-title"];
@@ -37,7 +37,10 @@ fetch("./js/data.json")
 			let modalBody = element["modal-body"];
 
 			// Get software-section-container HTML element and append card HTML
-			// elements with paramaterized components
+			// elements with paramaterized components. Turns out 
+			// multi-line comments don't need to escape quotes, so I didn't need to do that,
+			// nor did I have to add newline and tab characters for readability because the browser
+			// doesn't care.
 			document.getElementById("software-section-container").innerHTML += 
 			`<!-- Software Card -->
 			\n<div data-aos=\"fade-left\" data-aos-duration=\"500\" class=\"col\">
@@ -74,13 +77,14 @@ fetch("./js/data.json")
 		// Get portfolio-section HTML element and append card HTML
 		// elements with paramaterized components
 		jsondata["portfolio-section"].forEach(element => {
-
+			// Extract the current element's elements for string formatting
 			let imgSrc = element["img-src"];
 			let cardTitle = element["card-title"];
 			let cardText = element["card-text"];
 			let githubLink = element["github-link"];
 
 			let cardString = ``; 
+			// Append first section
 			cardString +=
 			`
 			<!-- Card -->
@@ -94,6 +98,8 @@ fetch("./js/data.json")
 						<div>
 							<h4>`;
 			
+			// If the "highlight" element boolean is true, add the star highlight and 
+			// additional spaces in front of the card title
 			if(element["highlight"]) {
 				cardString +=
 				`
@@ -101,14 +107,18 @@ fetch("./js/data.json")
 				<i class="fa-solid fa-star"></i>
 				&nbsp;`;
 			}
+			// Append card title
 			cardString += `${cardTitle}&nbsp;`;
 
+			// Append badge comment
 			cardString += '<!-- Badges -->';
+			// For each badge in the element["badges"] array
 			element["badges"].forEach(badge => {
 				// If the badge array contains the database badge,
 				// access the current card's "db-tech" element and append
 				// that to the mapped db badge value
 				if (badge == "db") {
+					// Get the "db-tech" value
 					let db = element["db-tech"];
 					cardString += '\n';
 					cardString += badgeMap.get(badge);
@@ -117,13 +127,14 @@ fetch("./js/data.json")
 					return;
 				}
 				
-				// Else just get the mapped badge value
+				// Else just get the mapped badge value and append with \n characters
 				cardString += '\n';
 				cardString += badgeMap.get(badge);
 				cardString += '\n';
 			});
 			cardString += '<!-- Badges -->';
 
+			// Append last section
 			cardString +=
 							`</h4>
 						</div>
@@ -143,7 +154,8 @@ fetch("./js/data.json")
 			</div>
 			<!-- End Card -->
 			`;
-			console.log(cardString);
+			// console.log(cardString);
+			// Append to element's innerHTML
 			document.getElementById("software-portfolio-container").innerHTML += cardString;
 		});
 
