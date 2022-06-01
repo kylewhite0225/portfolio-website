@@ -105,7 +105,7 @@ fetch("./js/data.json")
 				<i class="fa-solid fa-star"></i>
 				&nbsp;`;
 			}
-			// Append card title
+			// Append card title with extra space
 			cardString += `${cardTitle}&nbsp;`;
 
 			// Append badge comment
@@ -126,6 +126,7 @@ fetch("./js/data.json")
 				}
 				
 				// Else just get the mapped badge value and append with \n characters
+				// for proper badge spacing.
 				cardString += '\n';
 				cardString += badgeMap.get(badge);
 				cardString += '\n';
