@@ -12,7 +12,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/Csharp_Logo.png",
-			"bg-position": "15% 0%",
+			"bg-position": "17% 0%",
 			"img-title": ".NET Logo",
 			"card-text": ".NET / C#",
 			"data-target": "#netmodal",
@@ -22,7 +22,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/cplus-logo.png",
-			"bg-position": "30% 0%",
+			"bg-position": "34% 0%",
 			"img-title": "C++ Logo",
 			"card-text": "C++",
 			"data-target": "#cplusmodal",
@@ -32,7 +32,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/python-logo.png",
-			"bg-position": "45% 0%",
+			"bg-position": "51% 0%",
 			"img-title": "Python Logo",
 			"card-text": "Python",
 			"data-target": "#pythonmodal",
@@ -42,7 +42,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/n-react-logo.png",
-			"bg-position": "60% 0%",
+			"bg-position": "0% 30%",
 			"img-title": "React Logo",
 			"card-text": "React",
 			"data-target": "#reactmodal",
@@ -52,7 +52,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/react-native-logo.png",
-			"bg-position": "0% 30%",
+			"bg-position": "17% 30%",
 			"img-title": "React Native Logo",
 			"card-text": "React Native",
 			"data-target": "#reactnativemodal",
@@ -62,7 +62,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/JavaScript-logo.png",
-			"bg-position": "15% 30%",
+			"bg-position": "34% 30%",
 			"img-title": "JS Logo",
 			"card-text": "JavaScript",
 			"data-target": "#jsmodal",
@@ -72,7 +72,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/kubernetes-logo.png",
-			"bg-position": "30% 30%",
+			"bg-position": "51% 30%",
 			"img-title": "Kubernetes Logo",
 			"card-text": "Kubernetes",
 			"data-target": "#kubermodal",
@@ -82,7 +82,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/docker-logo.webp",
-			"bg-position": "45% 30%",
+			"bg-position": "0% 60%",
 			"img-title": "Docker Logo",
 			"card-text": "Docker",
 			"data-target": "#dockermodal",
@@ -92,7 +92,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/cloud-computing-white.png",
-			"bg-position": "60% 30%",
+			"bg-position": "17% 60%",
 			"img-title": "Cloud Logo",
 			"card-text": "Cloud Computing",
 			"data-target": "#cloudmodal",
@@ -102,7 +102,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/htmlcss-logo.png",
-			"bg-position": "0% 60%",
+			"bg-position": "34% 60%",
 			"img-title": "HTML/CSS Logo",
 			"card-text": "HTML / CSS",
 			"data-target": "#htmlcssmodal",
@@ -112,7 +112,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/machine-learning-logo.png",
-			"bg-position": "15% 60%",
+			"bg-position": "51% 60%",
 			"img-title": "ML Logo",
 			"card-text": "Machine Learning",
 			"data-target": "#mlmodal",
@@ -122,7 +122,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/aws-light-logo.png",
-			"bg-position": "30% 60%",
+			"bg-position": "0% 90%",
 			"img-title": "AWS Logo",
 			"card-text": "AWS",
 			"data-target": "#awsmodal",
@@ -131,8 +131,18 @@
 			"modal-body": "aws"
 		},
 		{
+			"img-src": "./assets/images/software/cicd-logo.png",
+			"bg-position": "51% 90%",
+			"img-title": "CI/CD Logo",
+			"card-text": "CI/CD",
+			"data-target": "#cicdmodal",
+			"modal-id": "cicdmodal",
+			"modal-title": "CI/CD Experience",
+			"modal-body": "Continuous implementation/continuous deployment."
+		},
+		{
 			"img-src": "./assets/images/software/database-centered-logo.png",
-			"bg-position": "45% 60%",
+			"bg-position": "17% 90%",
 			"img-title": "Databases Logo",
 			"card-text": "Database Systems",
 			"data-target": "#dbmodal",
@@ -142,7 +152,7 @@
 		},
 		{
 			"img-src": "./assets/images/software/iot-logo.png",
-			"bg-position": "60% 60%",
+			"bg-position": "34% 90%",
 			"img-title": "IOT Logo",
 			"card-text": "IoT Devices",
 			"data-target": "#iotmodal",
