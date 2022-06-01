@@ -407,7 +407,7 @@ container scaling to fix spillover into surrounding divs */
 
 .react-badge {
 	background-color: var(--bs-orange);
-	color: var(--bs-gray-dark)
+	/* color: var(--bs-gray-dark) */
 }
 
 .reactn-badge {
@@ -421,7 +421,7 @@ container scaling to fix spillover into surrounding divs */
 
 .aws-badge {
 	background-color: #ec912d;
-	/* color: var(--bs-gray-dark); */
+	color: var(--bs-gray-dark);
 }
 
 .db-badge {
