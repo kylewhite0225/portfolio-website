@@ -176,7 +176,7 @@
         </div>
         <div class="media-body">
           <h3 class="media-heading">Manufacturing & Mechanical Engineering </h3>
-          <p style="">
+          <p>
             Computer aided design (CAD), finite element analysis (FEA), 
             computer aided manufacturing (CAM), CNC programming, 
             process design, new product introduction, and multi-axis CNC 
@@ -196,7 +196,7 @@
         </div>
         <div class="media-body">
           <h3 class="media-heading">Software Development</h3>
-          <p style="">
+          <p>
             Object-oriented programming in Java, C#, C++, and C. Web
             and mobile app development using JavaScript, React, React Native,
             HTML, and CSS. Distributed/cloud computing, services,
@@ -216,10 +216,10 @@
         </div>
         <div class="media-body">
           <h3 class="media-heading">Play Outdoors</h3>
-          <p style="">
+          <p>
             Snowboarding, hiking, mountain biking, and enjoying the beauty of the earth.
           </p>
-          <p style="">
+          <p>
             Some of my favorite places include Stevens Pass, Mt. Baker Ski Area,
             North Cascades National Park, Baker Lake, Diablo Lake, 
             Ross Lake, and many others throughout
@@ -251,417 +251,41 @@
 <div class="album py-5 bg-dark">
   <div class="container">
     <h1 data-aos="fade-right" data-aos-duration="500" class="text-white">SOFTWARE PORTFOLIO - Highlights</h1>
-    
-    <!-- Card -->
-    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
-      <div class="col">
-        <div class="card software-card shadow-md">
-          <div class="card-body">
-            <div class="sw-img-container">
-              <img class="sw-img" src="./assets/images/portfolio/portfolio-logo-white.png" height="150px"></img>
-            </div>
-            <div>
-              <h4>
-                <!-- Highlight with fa-star -->
+    <div id="software-portfolio-container">
+      <!-- Software Cards -> populate.js -->
+
+      <!-- Test - BOOTSTRAP CARD LAYOUT -->
+      <!-- <section class="software-section py-4" data-aos="fade-right" data-aos-duration="500">
+        <div class="card software-card shadow-md container">
+          <div class="row">
+            <div class="col-sm-8 col-md-10 pt-3">
+              <h4 class="text-white">
                 <i class="fa-solid fa-star"></i>
                 &nbsp;Portfolio Website&nbsp;
-                <!-- Badges -->
-                <span class="badge bs-badge">Bootstrap</span>
-                <span class="badge html-badge">HTML</span>
-                <span class="badge css-badge">CSS</span>
-                <span class="badge js-badge">JavaScript</span>
-                <!-- Badges -->
-              </h4>
-            </div>            
-            <p>
-              This website! It was built using Bootstrap components, HTML, CSS, and JavaScript for animations. 
-              jQuery was used for responsiveness and compatibility.  CI/CD was handled through AWS Amplify.
-            </p>
-            <div class="button-row d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-sm btn-success" href = "https://github.com/kylewhite0225/portfolio-website" target="_blank">
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Card -->
-
-    <!-- Test - BOOTSTRAP CARD LAYOUT -->
-    <!-- <section class="software-section py-4" data-aos="fade-right" data-aos-duration="500">
-      <div class="card software-card shadow-md container">
-        <div class="row">
-          <div class="col-sm-8 col-md-10 pt-3">
-            <h4 class="text-white">
-              <i class="fa-solid fa-star"></i>
-              &nbsp;Portfolio Website&nbsp;
-              Badges
-              <span class="badge python-badge">Python</span>
-              <span class="badge jupyter-badge">Jupyter</span>
-              <span class="badge ml-badge">Machine Learning</span>
-              Badges
-            </h4>
-            <p>
-              This website! It was built using Bootstrap components, HTML, CSS, and JavaScript for animations. 
-              jQuery was used for responsiveness and compatibility.
-            </p>
-          </div>
-          <img class="sw-img col-md-2 py-4" src="./assets/images/portfolio/portfolio-logo-white.png">
-        </div>
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group pb-3">
-            <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/ann-mnist';">
-              GitHub
-            </button>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- Test -->
-
-    <!-- Card -->
-    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
-      <div class="col">
-        <div class="card software-card shadow-md">
-          <div class="card-body">
-            <div class="sw-img-container">
-              <img class="sw-img" src="./assets/images/portfolio/mnist.png" height="150px"></img>
-            </div>
-            <div>
-              <h4>
-                <!-- Highlight with fa-star -->
-                <i class="fa-solid fa-star"></i>
-                &nbsp;Artificial Neural Network - MNIST&nbsp;
-                <!-- Badges -->
+                Badges
                 <span class="badge python-badge">Python</span>
                 <span class="badge jupyter-badge">Jupyter</span>
                 <span class="badge ml-badge">Machine Learning</span>
-                <!-- Badges -->
+                Badges
               </h4>
+              <p>
+                This website! It was built using Bootstrap components, HTML, CSS, and JavaScript for animations. 
+                jQuery was used for responsiveness and compatibility.
+              </p>
             </div>
-            <p>
-              This project is an exploration of artificial neural networks using the small batch 
-              backpropagation algorithm. Each image in the MNIST dataset is broken down into a 1 x 784 
-              array (28x28 pixels) which is fed into the input layer of the newtork. The output of the 
-              network is the predicted digit that matches the handwritten input.
-            </p>
-            <div class="button-row d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-sm btn-success" href="https://github.com/kylewhite0225/ann-mnist" target="_blank">
-                  GitHub
-                </a>
-              </div>
+            <img class="sw-img col-md-2 py-4" src="./assets/images/portfolio/portfolio-logo-white.png">
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group pb-3">
+              <button type="button" class="btn btn-sm btn-success" onclick="location.href = 'https://github.com/kylewhite0225/ann-mnist';">
+                GitHub
+              </button>
             </div>
           </div>
         </div>
-      </div>
+      </section> -->
+      <!-- Test -->
     </div>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
-      <div class="col">
-        <div class="card software-card shadow-md">
-          <div class="card-body">
-            <div class="sw-img-container">
-              <img class="sw-img" src="./assets/images/portfolio/aws-cloud.png" height="150px"></img>
-            </div>
-            <div>
-              <h4>
-                <!-- Highlight with fa-star -->
-                <i class="fa-solid fa-star"></i>
-                &nbsp;Cloud Vaccine Information Database&nbsp;
-                <!-- Badges -->
-                <span class="badge csharp-badge">C#</span>
-                <span class="badge aws-badge">AWS</span>
-                <span class="badge cloud-badge">Cloud</span>
-                <span class="badge db-badge">PostgreSQL</span>
-                <!-- Badges -->
-              </h4>
-            </div>
-            <p>
-              This package includes a utility for uploading XML/JSON objects to Amazon S3, 
-              triggering a serverless AWS Lambda function to parse the file, 
-              which then formulates a query and stores the information in an AWS RDS PostgreSQL instance. 
-            </p>
-            <div class="button-row d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-sm btn-success" href="https://github.com/kylewhite0225/cloud-compute-vax-lambda" target="_blank">
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
-      <div class="col">
-        <div class="card software-card shadow-md">
-          <div class="card-body">
-            <div class="sw-img-container">
-              <img class="sw-img" src="./assets/images/software/react-native-logo.png" height="150px"></img>
-            </div>
-            <div>
-              <h4>
-                <!-- Highlight with fa-star -->
-                <i class="fa-solid fa-star"></i>
-                &nbsp;Focus Time App&nbsp;
-                <!-- Badges -->
-                <span class="badge reactn-badge">React Native</span>
-                <span class="badge js-badge">JavaScript</span>
-                <span class="badge html-badge">HTML</span>
-                <span class="badge css-badge">CSS</span>
-                <!-- Badges -->
-              </h4>
-            </div>
-            <p>
-              This is a cross-platform mobile application built using React Native for staying on task and keeping track of focused items.
-            </p>
-            <div class="button-row d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-sm btn-success" href="https://github.com/kylewhite0225/focustimeapp" target="_blank">
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
-      <div class="col">
-        <div class="card software-card shadow-md">
-          <div class="card-body">
-            <div class="sw-img-container">
-              <img class="sw-img" src="./assets/images/portfolio/robofriends.png" height="150px"></img>
-            </div>
-            <div>
-              <h4>
-                <!-- Highlight with fa-star -->
-                <!-- <i class="fa-solid fa-star"></i> -->
-                Robofriends&nbsp;
-                <!-- Badges -->
-                <span class="badge react-badge">React</span>
-                <span class="badge js-badge">JavaScript</span>
-                <span class="badge html-badge">HTML</span>
-                <span class="badge css-badge">CSS</span>
-                <!-- Badges -->
-              </h4>
-            </div>
-            <p>
-              Robofriends is a simple webpage made with React as part of the React Native Zero to Mastery course on Udemy.
-            </p>
-            <div class="button-row d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-sm btn-success" href="https://github.com/kylewhite0225/robofriends" target="_blank">
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
-      <div class="col">
-        <div class="card software-card shadow-md">
-          <div class="card-body">
-            <div class="sw-img-container">
-              <img class="sw-img" src="./assets/images/portfolio/decision-tree.png" height="150px"></img>
-            </div>
-            <div>
-              <h4>
-                <!-- Highlight with fa-star -->
-                <!-- <i class="fa-solid fa-star"></i> -->
-                ID3 - Decision Tree Algorithm&nbsp;
-                <!-- Badges -->
-                <span class="badge python-badge">Python</span>
-                <span class="badge jupyter-badge">Jupyter</span>
-                <span class="badge ml-badge">Machine Learning</span>
-                <!-- Badges -->
-              </h4>
-            </div>
-            <p>
-              This project is an implementation of the ID3 Decision Tree Algorithm written in Python. 
-              Several helper functions were created for gathering entropy and information gain, 
-              choosing the best features of a dataset (based on information gain), 
-              returning a prediction from the model, 
-              etc. A 30000 row dataframe of US Census data was used for training and testing.
-            </p>
-            <div class="button-row d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-sm btn-success" href="https://github.com/kylewhite0225/ID3" target="_blank">
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
-      <div class="col">
-        <div class="card software-card shadow-md">
-          <div class="card-body">
-            <div class="sw-img-container">
-              <img class="sw-img" src="./assets/images/software/java-logo.png" height="150px"></img>
-            </div>
-            <div>
-              <h4>
-                <!-- Highlight with fa-star -->
-                <!-- <i class="fa-solid fa-star"></i> -->
-                IMDB Movie Database&nbsp;
-                <!-- Badges -->
-                <span class="badge java-badge">Java</span>
-                <!-- Badges -->
-              </h4>
-            </div>
-            <p>
-              This project implements a movie database by reading from a CSV into an array, which
-              is then loaded into a hash table of red-black trees. Each red-black tree provides different 
-              search functionality: by year, IMDB score, language, and content rating. The application
-              prints out information for all of the movies in a search result set. This project was a component of 
-              my Algorithms course.
-            </p>
-            <div class="button-row d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-sm btn-success" href="https://github.com/kylewhite0225/movie-database" target="_blank">
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
-      <div class="col">
-        <div class="card software-card shadow-md">
-          <div class="card-body">
-            <div class="sw-img-container">
-              <img class="sw-img" src="./assets/images/software/java-logo.png" height="150px"></img>
-            </div>
-            <div>
-              <h4>
-                <!-- Highlight with fa-star -->
-                <!-- <i class="fa-solid fa-star"></i> -->
-                Convex Hull Builder&nbsp;
-                <!-- Badges -->
-                <span class="badge java-badge">Java</span>
-                <!-- Badges -->
-              </h4>
-            </div>
-            <p>
-              A convex hull is a series of line segments that surround a cluster of points, 
-              which is constructed in this program by use of an algorithm called Graham Scan.
-              This project was a component of my Algorithms course.
-            </p>
-            <div class="button-row d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-sm btn-success" href="https://github.com/kylewhite0225/convex_hull" target="_blank">
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
-      <div class="col">
-        <div class="card software-card shadow-md">
-          <div class="card-body">
-            <div class="sw-img-container">
-              <img class="sw-img" src="./assets/images/software/c-logo.png" height="150px"></img>
-            </div>
-            <div>
-              <h4>
-                <!-- Highlight with fa-star -->
-                <!-- <i class="fa-solid fa-star"></i> -->
-                Basic Unix Shell&nbsp;
-                <!-- Badges -->
-                <span class="badge c-badge">C</span>
-                <!-- Badges -->
-              </h4>
-            </div>
-            <p>
-              This is a basic unix shell with three built in commands: cd (change directory), 
-              pwd (print working directory), and exit. External commands are handled by
-              a function that tokenizes the input, creates a child using fork(),
-               passes the arguments to the child using execvp, and then waits for the child to terminate.
-               This project was a component of my Operating Systems course.
-            </p>
-            <div class="button-row d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-sm btn-success" href="https://github.com/kylewhite0225/basic-unix-shell" target="_blank">
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
-      <div class="col">
-        <div class="card software-card shadow-md">
-          <div class="card-body">
-            <div class="sw-img-container">
-              <img class="sw-img" src="./assets/images/software/c-logo.png" height="150px"></img>
-            </div>
-            <div>
-              <h4>
-                <!-- Highlight with fa-star -->
-                <!-- <i class="fa-solid fa-star"></i> -->
-                Concurrency Webserver&nbsp;
-                <!-- Badges -->
-                <span class="badge c-badge">C</span>
-                <!-- Badges -->
-              </h4>
-            </div>
-            <p>
-              The goal of this project was to take a single-threaded web server and convert it into a multi-threaded 
-              web server using a producer thread, buffer, consumer threads, locks, and condition variable signaling.
-              This project was a component of my Operating Systems course.
-            </p>
-            <div class="button-row d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <a type="button" class="btn btn-sm btn-success" href="https://github.com/kylewhite0225/concurrency-webserver" target="_blank">
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Card -->
-
   </div>
 </div>
 
