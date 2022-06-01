@@ -1,3 +1,22 @@
+const badgeMap = new Map([
+	["bs", '<span class="badge bs-badge">Bootstrap</span>'],
+	["html", '<span class="badge html-badge">HTML</span>'],
+	["css", '<span class="badge css-badge">CSS</span>'],
+	["js", '<span class="badge js-badge">JavaScript</span>'],
+	["java", '<span class="badge java-badge">Java</span>'],
+	["csharp", '<span class="badge csharp-badge">C#</span>'],
+	["cplus", '<span class="badge cplus-badge">C++</span>'],
+	["python", '<span class="badge python-badge">Python</span>'],
+	["react", '<span class="badge react-badge">React</span>'],
+	["reactn", '<span class="badge reactn-badge">React Native</span>'],
+	["ml", '<span class="badge ml-badge">Machine Learning</span>'],
+	["aws", '<span class="badge aws-badge">AWS</span>'],
+	["db", '<span class="badge db-badge">'],
+	["cloud",'<span class="badge cloud-badge">Cloud</span>'],
+	["jupyter", '<span class="badge jupyter-badge">Jupyter</span>'],
+	["c", '<span class="badge c-badge">C</span>']
+]);
+
 // Fetch json file
 fetch("./js/data.json")
 	.then(response => {
@@ -55,12 +74,82 @@ fetch("./js/data.json")
 		// Get portfolio-section HTML element and append card HTML
 		// elements with paramaterized components
 		jsondata["portfolio-section"].forEach(element => {
-			console.log(element);
+
+			let imgSrc = element["img-src"];
+			let cardTitle = element["card-title"];
+			let cardText = element["card-text"];
+			let githubLink = element["github-link"];
+
+			let cardString = ``; 
+			cardString +=
+			`
+			<!-- Card -->
+			<div data-aos="fade-right" data-aos-duration="500" class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1 mb-4">
+			  <div class="col">
+				<div class="card software-card shadow-md">
+				  <div class="card-body">
+					<div class="sw-img-container">
+					  <img class="sw-img" src="${imgSrc}" height="150px"></img>
+					</div>
+						<div>
+							<h4>`;
+			
+			if(element["highlight"] == "true") {
+				cardString +=
+				`
+				<!-- Highlight with fa-star -->
+				<i class="fa-solid fa-star"></i>
+				&nbsp;`;
+			}
+			cardString += `${cardTitle}&nbsp;`;
+
+			cardString += '<!-- Badges -->';
+			element["badges"].forEach(badge => {
+				// If the badge array contains the database badge,
+				// access the current card's "db-tech" element and append
+				// that to the mapped db badge value
+				if (badge == "db") {
+					let db = element["db-tech"];
+					cardString += '\n';
+					cardString += badgeMap.get(badge);
+					cardString += `${db}</span>`;
+					cardString += '\n';
+					return;
+				}
+				
+				// Else just get the mapped badge value
+				cardString += '\n';
+				cardString += badgeMap.get(badge);
+				cardString += '\n';
+			});
+			cardString += '<!-- Badges -->';
+
+			cardString +=
+							`</h4>
+						</div>
+					<p>
+					${cardText}
+					</p>
+					<div class="button-row d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+						<a type="button" class="btn btn-sm btn-success" href = "${githubLink}" target="_blank">
+						  GitHub
+						</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<!-- End Card -->
+			`;
+			console.log(cardString);
+			document.getElementById("software-portfolio-container").innerHTML += cardString;
 		});
 
 		// Get mech-section HTML element and append card HTML
 		// elements with paramaterized components
 		jsondata["mech-section"].forEach(element => {
-			console.log(element);
+			// console.log(element);
 		});
 	});
