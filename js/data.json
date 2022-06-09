@@ -8,7 +8,7 @@
 			"data-target": "#javamodal",
 			"modal-id": "javamodal",
 			"modal-title": "Java Experience",
-			"modal-body": "Object-oriented programming in Java."
+			"modal-body": "Object-oriented programming in Java, including command line (CLI) applications, database applications, simple algorithms, and API adapters."
 		},
 		{
 			"img-src": "./assets/images/software/Csharp_Logo.png",
@@ -18,7 +18,7 @@
 			"data-target": "#netmodal",
 			"modal-id": "netmodal",
 			"modal-title": ".NET / C# Experience",
-			"modal-body": "net"
+			"modal-body": "Object-oriented programming experience in C#, with a focus on cloud, cloud-hybrid, and cloud-interfacing applications with Amazon Web Services. Some of these applications are featured in my Software Portfolio section."
 		},
 		{
 			"img-src": "./assets/images/software/cplus-logo.png",
@@ -28,7 +28,7 @@
 			"data-target": "#cplusmodal",
 			"modal-id": "cplusmodal",
 			"modal-title": "C++ Experience",
-			"modal-body": "c++"
+			"modal-body": "Object-oriented programming experience in C++. My data structures course was instructed in C++"
 		},
 		{
 			"img-src": "./assets/images/software/python-logo.png",
@@ -38,7 +38,7 @@
 			"data-target": "#pythonmodal",
 			"modal-id": "pythonmodal",
 			"modal-title": "Python Experience",
-			"modal-body": "hiss"
+			"modal-body": "Machine learning, statistics, data science, and simple scripting tools using Python."
 		},
 		{
 			"img-src": "./assets/images/software/n-react-logo.png",
@@ -48,7 +48,7 @@
 			"data-target": "#reactmodal",
 			"modal-id": "reactmodal",
 			"modal-title": "React Experience",
-			"modal-body": "react"
+			"modal-body": "Web application development with React, including components, hooks, and state management. The front end of NCRP was built using React, as well as my simple Robofriends website project."
 		},
 		{
 			"img-src": "./assets/images/software/react-native-logo.png",
@@ -58,7 +58,7 @@
 			"data-target": "#reactnativemodal",
 			"modal-id": "reactnativemodal",
 			"modal-title": "React Experience",
-			"modal-body": "react native"
+			"modal-body": "Basic cross-platform Android/iOS app development using React Native, including my simple Focus Time app."
 		},
 		{
 			"img-src": "./assets/images/software/JavaScript-logo.png",
@@ -68,7 +68,7 @@
 			"data-target": "#jsmodal",
 			"modal-id": "jsmodal",
 			"modal-title": "JavaScript Experience",
-			"modal-body": "js"
+			"modal-body": "JavaScript experience mainly constrained to web applications (including this website), React, and React Native applications, including Node.js for package management, version management, and dependency management."
 		},
 		{
 			"img-src": "./assets/images/software/kubernetes-logo.png",
@@ -78,7 +78,7 @@
 			"data-target": "#kubermodal",
 			"modal-id": "kubermodal",
 			"modal-title": "Kubernetes Experience",
-			"modal-body": "k8s"
+			"modal-body": "Kubernetes is the backbone of NCRP. The cluster hosts the frontend web application, OpenSearch service, GeoServer service, Ray (machine learning) service, etc."
 		},
 		{
 			"img-src": "./assets/images/software/docker-logo.webp",
@@ -88,7 +88,7 @@
 			"data-target": "#dockermodal",
 			"modal-id": "dockermodal",
 			"modal-title": "Docker Experience",
-			"modal-body": "dock"
+			"modal-body": "Docker containers package the services running on the NCRP web application."
 		},
 		{
 			"img-src": "./assets/images/software/cloud-computing-white.png",
@@ -98,7 +98,7 @@
 			"data-target": "#cloudmodal",
 			"modal-id": "cloudmodal",
 			"modal-title": "Cloud Computing Experience",
-			"modal-body": "cloud"
+			"modal-body": "Cloud, cloud-hybrid, and cloud-interfacing applications using .NET/C# with Amazon Web Services, as well as technologies such as Kubernetes for modular and scalable cloud-based distributed applications. Some of the Amazon Web Services utilized include S3, EC2, Lambda, Simple Queue Service, Simple Notification Service, Rekognition, Textract, Translate, Cloud Watch, Database Services (RDS, NoSQL), Event Bridge, Amplify, etc."
 		},
 		{
 			"img-src": "./assets/images/software/htmlcss-logo.png",
@@ -108,7 +108,7 @@
 			"data-target": "#htmlcssmodal",
 			"modal-id": "htmlcssmodal",
 			"modal-title": "HTML / CSS Experience",
-			"modal-body": "I built this website!"
+			"modal-body": "I built this website! Bootstrap elements were utilized for modularity, many of which were populated using JavaScript and data stored in JSON. CSS was utilized for styling and for responsive design which helps adjust and scale components for different screen sizes."
 		},
 		{
 			"img-src": "./assets/images/software/machine-learning-logo.png",
@@ -118,7 +118,7 @@
 			"data-target": "#mlmodal",
 			"modal-id": "mlmodal",
 			"modal-title": "Machine Learning Experience",
-			"modal-body": "machine learns"
+			"modal-body": "Machine learning algorithms such as the ID3 decision tree and artificial neural network algorithms written in Python, as well as the utilization of cloud-based machine learning packages such as AWS Rekognition and Tensorflow."
 		},
 		{
 			"img-src": "./assets/images/software/aws-light-logo.png",
@@ -128,7 +128,7 @@
 			"data-target": "#awsmodal",
 			"modal-id": "awsmodal",
 			"modal-title": "AWS Experience",
-			"modal-body": "aws"
+			"modal-body": "Amazon Web Services utilized include S3, EC2, Lambda, Simple Queue Service, Simple Notification Service, Rekognition, Textract, Translate, Cloud Watch, Database Services (RDS, NoSQL), Event Bridge, Amplify, etc."
 		},
 		{
 			"img-src": "./assets/images/software/cicd-logo.png",
@@ -138,7 +138,7 @@
 			"data-target": "#cicdmodal",
 			"modal-id": "cicdmodal",
 			"modal-title": "CI/CD Experience",
-			"modal-body": "Continuous implementation/continuous deployment."
+			"modal-body": "Continuous implementation/continuous deployment through AWS Amplify. This website is deployed through Amplify which greatly simplifies deployment of the web application, and builds/updates the deployment any time the GitHub repository is updated."
 		},
 		{
 			"img-src": "./assets/images/software/database-centered-logo.png",
@@ -148,7 +148,7 @@
 			"data-target": "#dbmodal",
 			"modal-id": "dbmodal",
 			"modal-title": "Database Systems Experience",
-			"modal-body": "db"
+			"modal-body": "Database management and application development with relational database technologies such as MySQL and PostgreSQL, and NoSQL database technologies such as MongoDB and AWS DynamoDB."
 		},
 		{
 			"img-src": "./assets/images/software/iot-logo.png",
@@ -158,7 +158,7 @@
 			"data-target": "#iotmodal",
 			"modal-id": "iotmodal",
 			"modal-title": "IoT Device Experience",
-			"modal-body": "iot!"
+			"modal-body": "Arduino, Raspberry Pi, and various sensors and modules that interact with these devices such as ESP32 and NodeMCU development boards, LEDs, motor controllers, etc."
 		}
 	],
 	"portfolio-section": [
