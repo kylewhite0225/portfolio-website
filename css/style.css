@@ -140,6 +140,10 @@ body {
 	padding: 0.2rem;
 }
 
+#capstone-modal {
+	list-style-position: inside;
+}
+
 /* END CAPSTONE SECTION */
 
 /* WORK SECTION */

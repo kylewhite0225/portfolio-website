@@ -190,6 +190,20 @@
 			"github-link": "https://github.com/kylewhite0225/cloud-compute-vax-lambda"
 		},
 		{
+			"card-title": "Cloud/Local Hybrid Ticket Generator",
+			"img-src": "./assets/images/portfolio/aws-cloud.png",
+			"highlight": true,
+			"badges": [
+				"csharp",
+				"aws",
+				"cloud",
+				"ml"
+			],
+			"db-tech": "",
+			"card-text": "This project includes a utility for uploading license plate images to Amazon S3, triggering a serverless AWS Lambda function which scans the plate using AWS Textract machine learning service. A JSON message is placed in an AWS SQS downward queue containing the plate number and violation. A Windows service polls the queue, then responds with vehicle owner information in an upward queue. A second Lambda function translates a message using AWS Translate and sends it to the fictional vehicle owner via AWS SNS.",
+			"github-link": "https://github.com/kylewhite0225/cloud-hybrid-patient-db/"
+		},
+		{
 			"card-title": "Portfolio Website",
 			"img-src": "./assets/images/portfolio/portfolio-logo-white.png",
 			"highlight": true,
