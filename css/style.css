@@ -25,8 +25,7 @@ body {
 	color: lightgray;
 }
 
-.portrait
-{
+.portrait {
 	object-fit: scale-down;
 	max-height: 200px;
 }
@@ -105,13 +104,13 @@ body {
 }
 
 .video-container:after {
-	content:'';
+	content: '';
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.45);
+	background-color: rgba(0, 0, 0, 0.45);
 }
 
 /* END VIDEO SHOWCASE */
@@ -123,6 +122,7 @@ body {
 	flex-direction: row;
 	/* height: 50vh; */
 	align-items: center;
+	/* justify-content: center; */
 	background-image: url(../assets/images/topography-overlay.png);
 	/* object-fit: contain; */
 }
@@ -135,6 +135,12 @@ body {
 	align-self: flex-start;
 	width: 100%;
 }
+
+/* .card-container {
+	max-width: 70%;
+	justify-content: center;
+	display: inline-block;
+} */
 
 .btn-container {
 	padding: 0.2rem;
@@ -150,41 +156,38 @@ body {
 
 .work {
 	color: white;
-}	
+}
 
 .work-section {
 	padding-top: 20px;
 	display: flex;
 	flex-direction: row;
-}	
+}
 
-.work .media
-    {
-      margin-top: 30px;  
-    }  
+.work .media {
+	margin-top: 30px;
+}
 
-.work .media :hover	
-	{
-		background: #ffffff;
-		transition: all 0.3s ease-in;
-	}	
-	
-.work .media-object	
-    {
-        border: 2px solid #ffffff;
-        border-radius: 50%;
-        color: #127f2c;
-        font-size: 24px;
-        margin-right: 24px;
-        width: 45px;
-        height: 45px;
-        line-height: 40px;
-        text-align: center;
-        vertical-align: middle;
-        /* transition: all 0.4s ease-in; */
-    }
+.work .media :hover {
+	background: #ffffff;
+	transition: all 0.3s ease-in;
+}
 
-/* END WORK SECTION */	
+.work .media-object {
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	color: #127f2c;
+	font-size: 24px;
+	margin-right: 24px;
+	width: 45px;
+	height: 45px;
+	line-height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	/* transition: all 0.4s ease-in; */
+}
+
+/* END WORK SECTION */
 
 /* TECHNOLOGIES SECTION */
 
@@ -203,7 +206,7 @@ body {
 	background-image:
 		/* linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), */
 		url(../assets/images/topography-overlay.png);
-  }
+}
 
 .dark-card {
 	/* background-color: #181a1b; */
@@ -212,8 +215,7 @@ body {
 	color: var(--bs-light);
 }
 
-.card
-{
+.card {
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
 }
 
@@ -222,8 +224,7 @@ body {
 
 /* Modal popup */
 
-.modal-body 
-{
+.modal-body {
 	text-align: justify;
 }
 
@@ -330,7 +331,7 @@ footer p {
 }
 
 /* Safari hack for image scaling issue */
-@media not all and (min-resolution:.001dpcm){
+@media not all and (min-resolution:.001dpcm) {
 	.mech-img {
 		max-height: 300px;
 		object-fit: cover;
@@ -368,7 +369,7 @@ container scaling to fix spillover into surrounding divs */
 		width: 65%;
 		transform: translate(22%, 0%);
 	}
-  }
+}
 
 /* Badges */
 
@@ -475,4 +476,3 @@ container scaling to fix spillover into surrounding divs */
 	--bs-gray: #6c757d;
 	--bs-gray-dark: #343a40;
 }
-
