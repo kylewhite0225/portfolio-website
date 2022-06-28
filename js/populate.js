@@ -45,11 +45,13 @@ fetch("./js/data.json")
 					<img src="${imgSrc}" class="tech-image card-img-top" height="225" role="img" aria-label="Placeholder: Thumbnail" focusable="false" style="background-position: ${bgPosition}"><title>${imgTitle}</title><rect width="100%" height="100%" fill="#55595c"/></img>
 					<div class="card-body">
 						<p class="card-text">${cardText}</p>
+						<!--
 						<div class="d-flex justify-content-between align-items-center">
 							<div class="btn-group">
 								<button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="${dataTarget}">More Info</button>
 							</div>
 						</div>
+						-->
 					</div>
 				</div>
 			</div>
