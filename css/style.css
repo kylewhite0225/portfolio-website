@@ -363,9 +363,9 @@ footer p {
 
 	.btn-group-container {
 		/* transform: scale(0.8); */
-		zoom: 0.7;
-		transform: scale(0.7);
-		-moz-transform: scale(0.7);
+		zoom: 0.8;
+		transform: scale(0.8);
+		-moz-transform: scale(0.8);
 		transform-origin: left center;
 		-moz-transform-origin: left center;
 		display: flex;
