@@ -324,7 +324,7 @@ footer p {
 		zoom: 0.8;
 		transform: scale(0.8);
 		-moz-transform: scale(0.8);
-		min-width: 70vw;
+		width: 100vw !important;
 	}
 
 	.content h2 {
@@ -334,14 +334,17 @@ footer p {
 	}
 
 	.content h3 {
-		zoom: 0.8;
-		transform: scale(0.8);
-		-moz-transform: scale(0.8);
+		zoom: 0.9 !important;
+		transform: scale(0.9) !important;
+		-moz-transform: scale(0.9) !important;
 	}
 
 	.content h4 {
 		min-width: inherit;
 		text-align: justify;
+		zoom: 1.05 !important;
+		transform: scale(1.05) !important;
+		-moz-transform: scale(1.05) !important;
 	}
 
 	.capstone {
