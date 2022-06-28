@@ -292,9 +292,6 @@ body {
 
 /* Mechanical Portfolio Section */
 
-/* .mech-card {
-	object-fit: scale-d
-} */
 
 .mech-img {
 	object-fit: scale-down;
@@ -333,11 +330,11 @@ footer p {
 		-moz-transform: scale(0.6) !important;
 	}
 
-	.content h3 {
+	/* .content h3 {
 		zoom: 0.9 !important;
 		transform: scale(0.9) !important;
 		-moz-transform: scale(0.9) !important;
-	}
+	} */
 
 	.content h4 {
 		min-width: inherit;
@@ -385,16 +382,17 @@ footer p {
 		object-fit: cover;
 	}
 
-	.
+	.content {
+		zoom: 1 !important;
+		transform: scale(1.0) !important;
+		-moz-transform: scale(1.0) !important;
+		min-width: 50vw !important;
+	}
 }
 
 /* For device pixel ratios > 1.3, adjust showcase content and capstone 
 container scaling to fix spillover into surrounding divs */
 @media (-webkit-min-device-pixel-ratio: 1.3) {
-	.showcase {
-		/* height: 60vh !important; */
-	}
-	
 	.content {
 		zoom: 0.8;
 		transform: scale(0.8);
@@ -410,11 +408,11 @@ container scaling to fix spillover into surrounding divs */
 		-moz-transform: scale(0.5);
 	}
 
-	.content h3 {
-		zoom: 0.8;
-		transform: scale(0.8);
-		-moz-transform: scale(0.8);
-	}
+	/* .content h3 {
+		zoom: 0.9;
+		transform: scale(0.9);
+		-moz-transform: scale(0.9);
+	} */
 
 	.content h4 {
 		min-width: inherit;
