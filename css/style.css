@@ -55,16 +55,16 @@ body {
 	line-height: 1.2;
 }
 
-#about h4 {
-	font-weight: 400;
+#about h3 {
+	font-weight: 300;
 	margin: 15px 0;
 }
 
-#about h5 {
+#about h4 {
 	margin: 10px 0;
 	font-weight: 100;
 	text-align: justify;
-	max-width: 600px;
+	max-width: 700px;
 }
 
 /* VIDEO SHOWCASE */
