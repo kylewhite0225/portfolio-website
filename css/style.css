@@ -70,7 +70,7 @@ body {
 /* VIDEO SHOWCASE */
 .showcase {
 	position: relative;
-	/* height: 43vh; */
+	/* height: 60vh; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -146,6 +146,12 @@ body {
 	padding: 0.2rem;
 }
 
+.btn-group-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 #capstone-modal {
 	list-style-position: inside;
 }
@@ -155,7 +161,9 @@ body {
 /* WORK SECTION */
 
 .work {
-	color: white;
+	color: var(--bs-light);
+	/* background-image: url(../assets/images/topography-overlay.png); */
+	
 }
 
 .work-section {
@@ -306,10 +314,34 @@ footer p {
 	color: var(--bs-light);
 }
 
-/* Breakpoint for responsiveness */
+/* Breakpoint for mobile responsiveness */
 @media screen and (max-width: 800px) {
 	.showcase {
 		height: auto;
+	}
+
+	.content {
+		zoom: 0.8;
+		transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		min-width: 70vw;
+	}
+
+	.content h2 {
+		zoom: 0.7;
+		transform: scale(0.8);
+		-moz-transform: scale(0.8);
+	}
+
+	.content h4 {
+		zoom: 0.8;
+		transform: scale(0.8);
+		-moz-transform: scale(0.8);
+	}
+
+	.content h5 {
+		min-width: inherit;
+		text-align: justify;
 	}
 
 	.capstone {
@@ -327,6 +359,15 @@ footer p {
 	.portrait {
 		object-fit: scale-down;
 		max-height: 300px;
+	}
+
+	.btn-group-container {
+		/* transform: scale(0.8); */
+		zoom: 0.78;
+		display: flex;
+		justify-content: left;
+		align-items: flex-start;
+		padding: 0px;
 	}
 }
 

@@ -174,7 +174,7 @@ fetch("./js/data.json")
 			// elements with paramaterized components.
 			document.getElementById("mech-portfolio-container").innerHTML +=
 			`
-			<div data-aos="fade-left" data-aos-duration="500" class="col">
+			<div data-aos="fade-right" data-aos-duration="500" class="col">
 				<div class="card dark-card mech-card shadow-sm">
 					<img class="mech-img" src="${imgSrc}" alt="${imgTitle}">
 					<div class="card-body">
