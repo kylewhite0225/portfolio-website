@@ -458,6 +458,8 @@ container scaling to fix spillover into surrounding divs */
 		width: 65%;
 		transform: translate(22%, 0%);
 	}
+
+
 }
 
 /* For device pixel ratios > 2.5, adjust showcase content and capstone 
@@ -496,6 +498,10 @@ container scaling to fix spillover into surrounding divs */
 	.capstone .container {
 		width: 65%;
 		transform: translate(22%, 0%);
+	}
+
+	.showcase {
+		height: 100vh !important;
 	}
 }
 
