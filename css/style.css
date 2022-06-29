@@ -459,9 +459,9 @@ container scaling to fix spillover into surrounding divs */
 	}
 
 	.content h3 {
-		zoom: 0.9;
-		transform: scale(0.9);
-		-moz-transform: scale(0.9);
+		zoom: 1;
+		transform: scale(1);
+		-moz-transform: scale(1);
 	}
 
 	.content h4 {
