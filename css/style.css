@@ -391,15 +391,15 @@ footer p {
 	}
 }
 
-@media (min-resolution:0.001dpcm) and (-webkit-min-device-pixel-ratio: 2.5) {
+/* @media (-webkit-min-device-pixel-ratio: 2.5) {
 	.content {
-		zoom: 0.75;
-		transform: scale(0.75);
-		-moz-transform: scale(0.75);
+		zoom: 0.75 !important;
+		transform: scale(0.75) !important;
+		-moz-transform: scale(0.75) !important;
 		min-width: 50vw;
 		max-width: 90vw;
 	}
-}
+} */
 
 /* For device pixel ratios > 1.3, adjust showcase content and capstone 
 container scaling to fix spillover into surrounding divs */
@@ -443,10 +443,11 @@ container scaling to fix spillover into surrounding divs */
 container scaling to fix spillover into surrounding divs */
 @media (-webkit-min-device-pixel-ratio: 2.5) {
 	.content {
-		zoom: 0.8;
-		transform: scale(0.8);
-		-moz-transform: scale(0.8);
-		min-width: 70vw;
+		zoom: 0.75;
+		transform: scale(0.75);
+		-moz-transform: scale(0.75);
+		min-width: 50vw;
+		max-width: 90vw;
 	}
 
 	.content h2 {
