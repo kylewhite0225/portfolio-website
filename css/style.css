@@ -335,7 +335,7 @@ footer p {
 /* Breakpoint for mobile responsiveness */
 @media screen and (max-width: 800px) {
 	.showcase {
-		height: 80vh !important;
+		height: 100vh !important;
 	}
 
 	/* .content {
