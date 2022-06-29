@@ -56,14 +56,14 @@ body {
 }
 
 #about h3 {
-	font-weight: 300;
+	font-weight: 400;
 	margin: 15px 0;
 }
 
 #about h4 {
 	margin: 10px 0;
-	font-weight: 100;
-	text-align: justify;
+	font-weight: inherit;
+	text-align: left;
 }
 
 .text-responsive-h2 {
@@ -335,7 +335,7 @@ footer p {
 /* Breakpoint for mobile responsiveness */
 @media screen and (max-width: 800px) {
 	.showcase {
-		height: 85vh !important;
+		height: 80vh !important;
 	}
 
 	/* .content {
@@ -366,7 +366,7 @@ footer p {
 	} */
 
 	.capstone {
-		height: 65vh !important;
+		height: 75vh !important;
 	}
 
 	.sw-img {
