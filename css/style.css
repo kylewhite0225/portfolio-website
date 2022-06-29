@@ -163,7 +163,7 @@ body {
 .work {
 	color: var(--bs-light);
 	/* background-image: url(../assets/images/topography-overlay.png); */
-	
+
 }
 
 .work-section {
@@ -387,7 +387,17 @@ footer p {
 		transform: scale(1.0) !important;
 		-moz-transform: scale(1.0) !important;
 		min-width: 50vw !important;
-		max-width: 95vw !important;
+		max-width: 80vw !important;
+	}
+}
+
+@media not all and (min-resolution:0.001dpcm) and (-webkit-min-device-pixel-ratio: 2.5) {
+	.content {
+		zoom: 0.7 !important;
+		transform: scale(0.7) !important;
+		-moz-transform: scale(0.7) !important;
+		min-width: 50vw !important;
+		max-width: 80vw !important;
 	}
 }
 
