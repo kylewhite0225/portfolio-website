@@ -387,17 +387,17 @@ footer p {
 		transform: scale(1.0) !important;
 		-moz-transform: scale(1.0) !important;
 		min-width: 50vw !important;
-		max-width: 80vw !important;
+		max-width: 90vw !important;
 	}
 }
 
-@media not all and (min-resolution:0.001dpcm) and (-webkit-min-device-pixel-ratio: 2.5) {
+@media (min-resolution:0.001dpcm) and (-webkit-min-device-pixel-ratio: 2.5) {
 	.content {
-		zoom: 0.7 !important;
-		transform: scale(0.7) !important;
-		-moz-transform: scale(0.7) !important;
-		min-width: 50vw !important;
-		max-width: 80vw !important;
+		zoom: 0.75;
+		transform: scale(0.75);
+		-moz-transform: scale(0.75);
+		min-width: 50vw;
+		max-width: 90vw;
 	}
 }
 
