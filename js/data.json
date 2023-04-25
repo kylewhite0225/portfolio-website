@@ -172,7 +172,7 @@
 				"ml"
 			],
 			"db-tech": "",
-			"card-text": "This project is an exploration of artificial neural networks using the small batch backpropagation algorithm. Each image in the MNIST dataset is broken down into a 1 x 784 array (28x28 pixels) which is fed into the input layer of the newtork. The output of the network is the predicted digit that matches the handwritten input.",
+			"card-text": "This project is an exploration of artificial neural networks using the small batch backpropagation algorithm. Each image in the MNIST dataset is broken down into a 1 x 784 array (28x28 pixels) which is fed into the input layer of the network. The output of the network is the predicted digit that matches the handwritten input.",
 			"github-link": "https://github.com/kylewhite0225/ann-mnist"
 		},
 		{
