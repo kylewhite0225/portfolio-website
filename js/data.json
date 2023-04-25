@@ -227,7 +227,7 @@
 				"cloud"
 			],
 			"db-tech": "",
-			"card-text": "This project includes a utility for uploading XML objects to Amazon S3, triggering a serverless AWS Lambda function which places a JSON message in an AWS SQS downward queue which is being monitored by a Windows service. This service responds with patient information in an upward queue is printed to Cloudwatch by a second Lambda function.",
+			"card-text": "This project includes a utility for uploading XML objects to Amazon S3, triggering a serverless AWS Lambda function which places a JSON message in an AWS SQS downward queue which is being monitored by a Windows service. This service responds with patient information in an upward queue which is then printed to Cloudwatch by a second Lambda function.",
 			"github-link": "https://github.com/kylewhite0225/cloud-hybrid-patient-db/"
 		},
 		{
