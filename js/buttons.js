@@ -39,3 +39,11 @@ $( "#resume" ).click(function() {
 
   window.open(buttonlink)
 });
+
+$( "#multi-resume" ).attr('data-buttonlink', 'multiresume.html')
+
+$( "#multi-resume" ).click(function() {
+  const buttonlink = $("#multi-resume").data('buttonlink')
+
+  window.open(buttonlink)
+});
